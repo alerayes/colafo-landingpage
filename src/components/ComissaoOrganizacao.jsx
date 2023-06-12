@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 
-import draPatriciaFigueira from '@/images/avatars/drapatriciafigueira.jpeg'
+import draPatriciaFigueira from '@/images/avatars/draPatriciaFigueira.jpeg'
 import draAndreiaNunes from '@/images/avatars/draAndreiaNunes.jpeg'
 import draAnaCarolinaGoncalves from '@/images/avatars/draAnaCarolinaGoncalves.jpeg'
 import draAnaPaulaOliveira from '@/images/avatars/draAnaPaulaOliveira.jpeg'
