@@ -8,7 +8,7 @@ export function AgenciaOficial() {
   return (
     <section id="agenciaOficial"  className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
       <Container>
-      <div className=" mt-20 text-center lg:mx-0">
+      <div className=" mt-20 mb-4 text-center lg:mx-0">
           <h2
             id="speakers-title"
             className=" text-2xl font-semibold text-primary-green tracking-tighter"
@@ -16,16 +16,16 @@ export function AgenciaOficial() {
             Agência
           </h2>
         </div>
-        <div className="mx-auto mb-2  place-content-center ">
+        <div className="mx-auto mb-8  place-content-center ">
             <div
               className="flex items-center justify-center"
             >
-              <a href="https://www.bality.com.br/">
-                  <Image src={BalityLogo} alt={'bality-logo'} unoptimized width={100} height={100}/>
+              <a href="https://www.bality.com.br/" className='mb-4'>
+                  <Image src={BalityLogo} alt={'bality-logo'} unoptimized width={150} height={100}/>
               </a>
             </div>
         </div>
-        <div className="mx-auto my-4 h-px w-48 bg-primary-green/50" />
+        <div className="mx-auto my-4 h-px w-64 bg-primary-green/50" />
       </Container>
     </section>
   )

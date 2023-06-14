@@ -122,7 +122,7 @@ export function ProgramaCultural() {
   return (
     <section id="sponsors" aria-label="Sponsors" className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
       <Container>
-      <div className="text-center lg:mx-0">
+      <div className="mt-10 text-center lg:mx-0">
           <h2
             id="speakers-title"
             className=" text-2xl font-semibold text-primary-green tracking-tighter"
@@ -130,7 +130,7 @@ export function ProgramaCultural() {
             Programa Cultural de São Paulo
           </h2>
         </div>
-        <div className="mb-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+        <div className="mb-20 pt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
           {categories.map((category, index) => (
             <div key={index} className="text-center">
               <h3 className="text-base font-bold text-dark-brown">{category.name}</h3>
