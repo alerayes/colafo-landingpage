@@ -114,7 +114,7 @@ const spanishSchedule = [
           {
             id: 2,
             time: '10:05',
-            name: 'Termografia em OncologEnfaixamento versus vestimenta inelástica: qual a melhor opção?',
+            name: 'Enfaixamento versus vestimenta inelástica: qual a melhor opção?',
             speaker: 'Andrea Mendoza (ARG)'
           },
           {
@@ -284,7 +284,7 @@ const spanishSchedule = [
         ]
       },
       {
-        name: 'Apresentação coral laringectomizados',
+        name: 'Apresentação do Coral Sua Voz',
         start: '17:10',
         end: '17:40',
       },
@@ -364,7 +364,7 @@ const spanishSchedule = [
       {
         name: 'Mesa redonda: Exercício físico em oncologia',
         start: '09:55',
-        end: '10:55',
+        end: '10:35',
         speakers: null,
         blocks: [
           {
@@ -381,15 +381,23 @@ const spanishSchedule = [
           },
           {
             id: 3,
-            time: '10:25',
-            name: 'Pesquisa Clínica e inteligência artificial na Saúde',
-            speaker: 'Paulo César Fernandes Jr',
-          },
-          {
-            id: 4,
-            time: '10:40',
+            time: '10:25  ',
             name: 'Discussão',
           },
+        ]
+      },
+      {
+        name: 'Pesquisa Clínica e inteligência artificial na Saúde',
+        start: '10:35',
+        end: '10:55',
+        speakers: null,
+        blocks: [
+          {
+            id: 1,
+            time: '10:50',
+            name: 'Discussão',
+            speaker: '',
+          }
         ]
       },
       {
@@ -401,7 +409,7 @@ const spanishSchedule = [
           {
             id: 1,
             time: '10:55',
-            name: '',
+            name: 'Cirurgia robótica no CCP e seu impacto funcional',
             speaker: 'Telma Ribeiro - AC Camargo',
           },
           {
@@ -430,13 +438,13 @@ const spanishSchedule = [
           {
             id: 1,
             time: '12:05',
-            name: 'TMO',
+            name: 'Fisioterapia na TMO: Cuidado Centrado no Paciente',
             speaker: 'Marister Cocco',
           },
           {
             id: 2,
             time: '12:20',
-            name: 'Emergências oncológicas',
+            name: 'Fisioterapia Oncológica na UTI prática baseada em evidência',
             speaker: 'Vinicio',
           },
           {

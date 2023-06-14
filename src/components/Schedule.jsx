@@ -12,7 +12,7 @@ const portugueseSchedule = [
       '',
     timeSlots: [
       {
-        name: 'Linfedema: das bases anatõmicas ao tratamento',
+        name: 'Linfedema: das bases anatômicas ao tratamento',
         start: '08:00',
         end: '12:00',
         speakers: [
@@ -113,7 +113,7 @@ const portugueseSchedule = [
           {
             id: 2,
             time: '10:05',
-            name: 'Termografia em OncologEnfaixamento versus vestimenta inelástica: qual a melhor opção?',
+            name: 'Enfaixamento versus vestimenta inelástica: qual a melhor opção?',
             speaker: 'Andrea Mendoza (ARG)'
           },
           {
@@ -283,7 +283,7 @@ const portugueseSchedule = [
         ]
       },
       {
-        name: 'Apresentação coral laringectomizados',
+        name: 'Apresentação do Coral Sua Voz',
         start: '17:10',
         end: '17:40',
       },
@@ -363,7 +363,7 @@ const portugueseSchedule = [
       {
         name: 'Mesa redonda: Exercício físico em oncologia',
         start: '09:55',
-        end: '10:55',
+        end: '10:35',
         speakers: null,
         blocks: [
           {
@@ -380,15 +380,23 @@ const portugueseSchedule = [
           },
           {
             id: 3,
-            time: '10:25',
-            name: 'Pesquisa Clínica e inteligência artificial na Saúde',
-            speaker: 'Paulo César Fernandes Jr',
-          },
-          {
-            id: 4,
-            time: '10:40',
+            time: '10:25  ',
             name: 'Discussão',
           },
+        ]
+      },
+      {
+        name: 'Pesquisa Clínica e inteligência artificial na Saúde',
+        start: '10:35',
+        end: '10:55',
+        speakers: null,
+        blocks: [
+          {
+            id: 1,
+            time: '10:50',
+            name: 'Discussão',
+            speaker: '',
+          }
         ]
       },
       {
@@ -400,7 +408,7 @@ const portugueseSchedule = [
           {
             id: 1,
             time: '10:55',
-            name: '',
+            name: 'Cirurgia robótica no CCP e seu impacto funcional',
             speaker: 'Telma Ribeiro - AC Camargo',
           },
           {
@@ -429,13 +437,13 @@ const portugueseSchedule = [
           {
             id: 1,
             time: '12:05',
-            name: 'TMO',
+            name: 'Fisioterapia na TMO: Cuidado Centrado no Paciente',
             speaker: 'Marister Cocco',
           },
           {
             id: 2,
             time: '12:20',
-            name: 'Emergências oncológicas',
+            name: 'Fisioterapia Oncológica na UTI prática baseada em evidência',
             speaker: 'Vinicio',
           },
           {
@@ -658,7 +666,7 @@ const spanishSchedule = [
           {
             id: 2,
             time: '10:05',
-            name: 'Termografia em OncologEnfaixamento versus vestimenta inelástica: qual a melhor opção?',
+            name: 'Enfaixamento versus vestimenta inelástica: qual a melhor opção?',
             speaker: 'Andrea Mendoza (ARG)'
           },
           {
@@ -828,7 +836,7 @@ const spanishSchedule = [
         ]
       },
       {
-        name: 'Apresentação coral laringectomizados',
+        name: 'Apresentaçao do Coral Sua Voz',
         start: '17:10',
         end: '17:40',
       },
@@ -945,7 +953,7 @@ const spanishSchedule = [
           {
             id: 1,
             time: '10:55',
-            name: '',
+            name: 'Cirurgia robótica no CCP e seu impacto funcional',
             speaker: 'Telma Ribeiro - AC Camargo',
           },
           {
@@ -967,31 +975,31 @@ const spanishSchedule = [
       },
       {
         name: 'Mesa redonda: Paciente crítico em oncologia',
-        start: '12:05',
-        end: '13:05',
+        start: '11:50',
+        end: '12:50',
         speakers: null,
         blocks: [
           {
             id: 1,
-            time: '12:05',
-            name: 'TMO',
-            speaker: 'Marister Cocco',
+            time: '11:50',
+            name: 'Fisioterapia na TMO: Cuidado Centrado no Paciente'
+
           },
           {
             id: 2,
-            time: '12:20',
-            name: 'Emergências oncológicas',
+            time: '12:05',
+            name: 'Fisioterapia oncológica na UTI: prática baseada em evidência',
             speaker: 'Vinicio',
           },
           {
             id: 3,
-            time: '12:35',
+            time: '12:20',
             name: 'Terapia por CAR-T Cell e suas repercussões físicas',
             speaker: 'Paula Tonini'
           },
           {
             id: 4,
-            time: '12:50',
+            time: '12:35',
             name: 'Discussão',
           },
         ]
@@ -1118,13 +1126,13 @@ function ScheduleTabbed() {
       className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
       vertical={tabOrientation === 'vertical'}
     >
-      <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pb-4 pl-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
+      <Tab.List className="-mx-4 flex flex-nowrap o gap-x-2 gap-y-10 overflow-x-auto pb-4 pl-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
         {({ selectedIndex }) =>
           portugueseSchedule.map((day, dayIndex) => (
             <div
               key={day.dateTime}
               className={clsx(
-                'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
+                'relative  flex-none pr-2 pl-2   sm:w-auto sm:pr-0',
                 dayIndex !== selectedIndex && 'opacity-70'
               )}
             >
@@ -1132,7 +1140,7 @@ function ScheduleTabbed() {
                 day={{
                   ...day,
                   date: (
-                    <Tab className="[&:not(:focus-visible)]:focus:outline-none">
+                    <Tab className="[&:not(:focus-visible)]:focus:outline-none text-base sm:text-lg">
                       <span className="absolute inset-0" />
                       {day.date}
                     </Tab>
