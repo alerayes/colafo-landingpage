@@ -35,7 +35,7 @@ const dataPortuguese = [
   { 
     id: 4,
     categoria: 'Curso Pré Congresso Internacional Linfedema', 
-    primeiraData: 'R$ 180,00', 
+    primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
     terceiraData: 'R$ 300,00',
     noLocal: 'R$ 350,00' 
@@ -43,7 +43,7 @@ const dataPortuguese = [
   { 
     id: 5,
     categoria: 'Curso Pré Congresso Internacional Linfedema', 
-    primeiraData: 'R$ 180,00', 
+    primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
     terceiraData: 'R$ 300,00',
     noLocal: 'R$ 350,00' 
@@ -86,7 +86,7 @@ const dataSpanish = [
   { 
     id: 4,
     categoria: 'Curso internacional pre-congreso Linfedema', 
-    primeiraData: 'R$ 180,00', 
+    primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
     terceiraData: 'R$ 300,00',
     noLocal: 'R$ 350,00' 
@@ -94,7 +94,7 @@ const dataSpanish = [
   { 
     id: 5,
     categoria: 'Curso internacional pre congreso Rehabilitación Integrativa', 
-    primeiraData: 'R$ 180,00', 
+    primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
     terceiraData: 'R$ 300,00',
     noLocal: 'R$ 350,00' 
@@ -116,7 +116,7 @@ export function Inscricoes({language}) {
   return (
     <section
       id="inscricoes"
-      className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+      className="mx-auto max-w-7xl px-4 pt-8 sm:px-6 lg:px-8"
     >
       <Container>
         <div className="text-center lg:mx-0">
