@@ -1126,13 +1126,13 @@ function ScheduleTabbed() {
       className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
       vertical={tabOrientation === 'vertical'}
     >
-      <Tab.List className="-mx-4 flex flex-nowrap o gap-x-2 gap-y-10 overflow-x-auto pb-4 pl-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
+      <Tab.List className="-mx-4 flex flex-nowrap o gap-x-2 gap-y-10  pb-4 pl-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8 justify-center">
         {({ selectedIndex }) =>
           portugueseSchedule.map((day, dayIndex) => (
             <div
               key={day.dateTime}
               className={clsx(
-                'relative  flex-none pr-2 pl-2   sm:w-auto sm:pr-0',
+                'relative  flex-none pr-2 pl-2  sm:w-auto   sm:pr-0',
                 dayIndex !== selectedIndex && 'opacity-70'
               )}
             >
