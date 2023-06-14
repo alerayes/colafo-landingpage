@@ -25,20 +25,6 @@ export function Realizacao() {
               </a>
             </div>
         </div>
-        <div>
-            <h3 className=" font-display text-md text-center font-bold tracking-tight text-slate-900">
-                Seja um patrocinador
-            </h3>
-            <p className='mt-1 tracking-tight text-center text-md text-slate-900'>
-                Cota Ouro
-            </p>
-            <p className='mt-1 tracking-tight text-center text-md text-slate-900'>
-                Cota Prata
-            </p>
-            <p className='mt-1 tracking-tight text-center text-md text-decoration underline text-slate-900'>
-                Baixe o booking comercial
-            </p>
-        </div>
         <div className="mx-auto my-4 h-px w-48 bg-primary-green/50" />
       </Container>
     </section>
