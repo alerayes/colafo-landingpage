@@ -643,11 +643,11 @@ function TimeSlots({ day, className }) {
           <h4 className="text-lg font-bold tracking-tight text-dark-brown">
             {timeSlot.name}
           </h4>
-          {timeSlot.speakers &&  timeSlot.speakers.map((speaker) => (
+          {/* {timeSlot.speakers &&  timeSlot.speakers.map((speaker) => (
             <p className="mt-1 tracking-tight text-slate-600" key={speaker.id}>
                 {speaker.name}
             </p>
-          ))}
+          ))} */}
           <p className="mt-1 font-mono text-sm text-slate-500">
             <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
               {timeSlot.start}
@@ -667,9 +667,9 @@ function TimeSlots({ day, className }) {
               <span className='mt-1 tracking-tight font-semibold text-dark-brown'>
                 {block.name}
               </span>
-              <p className='mt-1 tracking-tight font-regular text-slate-600'>
+              {/* <p className='mt-1 tracking-tight font-regular text-slate-600'>
                 {block.speaker}
-              </p>
+              </p> */}
             </div>
           ))}
 
