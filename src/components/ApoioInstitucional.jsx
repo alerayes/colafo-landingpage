@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import AbraleLogo from '@/images/logos/abrale-logo.png'
+import AFOALogo from '@/images/logos/afoa-logo.jpeg'
 
 
 export function ApoioInstitucional() {
@@ -22,6 +23,9 @@ export function ApoioInstitucional() {
             >
               <a href="https://www.abrale.org.br/">
                   <Image src={AbraleLogo} alt={'abrale-logo'} unoptimized width={190} height={140}/>
+              </a>
+              <a href="">
+                  <Image src={AFOALogo} alt={'afoa-logo'} unoptimized width={80} height={50}/>
               </a>
             </div>
         </div>
