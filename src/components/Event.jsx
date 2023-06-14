@@ -1,4 +1,7 @@
 import { Container } from '@/components/Container'
+import Image from 'next/image'
+import draLauraRezende from '@/images/avatars/dralaurarezende.jpeg'
+
 
 export function Event({language}) {
 
@@ -23,9 +26,9 @@ export function Event({language}) {
           <div className=" text-lg leading-7 text-gray-700 lg:col-span-7">
             <p>
               { language === 'pt' ?
-                'Sediado em São Paulo/ htBrasil, o COLAFO reunirá mais de 450 congressistas para discussão da atuação fisioterapêutica dentro da Oncologia, além das tradicionais palestras com grandes referências da área, teremos palestras com demonstração prática em formato HANDS ON e experiências únicas com apresentação de palhaços, grupo de dança de pacientes mastectomizadas, entre outras surpresas que estão sendo preparadas.'
+                'Sediado em São Paulo/Brasil, o COLAFO reunirá mais de 450 congressistas para discussão da atuação fisioterapêutica dentro da Oncologia, além das tradicionais palestras com grandes referências da área, teremos palestras com demonstração prática em formato HANDS ON e experiências únicas com apresentação de palhaços, grupo de dança de pacientes mastectomizadas, entre outras surpresas que estão sendo preparadas.'
                :
-                'Con sede en São Paulo/htBrasil, COLAFO reunirá a más de 450 delegados para discutir el papel fisioterapéutico dentro de la Oncología, además de las conferencias tradicionales con grandes referencias en el área, tendremos conferencias con demostraciones prácticas en formato HANDS ON y experiencias únicas. con la presentación de payasos, grupo de baile de pacientes mastectomizadas, entre otras sorpresas que se están preparando.' 
+                'Con sede en São Paulo/Brasil, COLAFO reunirá a más de 450 delegados para discutir el papel fisioterapéutico dentro de la Oncología, además de las conferencias tradicionales con grandes referencias en el área, tendremos conferencias con demostraciones prácticas en formato HANDS ON y experiencias únicas. con la presentación de payasos, grupo de baile de pacientes mastectomizadas, entre otras sorpresas que se están preparando.' 
               }
             </p>
             <p className="mt-6">
@@ -84,8 +87,16 @@ export function Event({language}) {
                 </p>
               </blockquote>
               <figcaption className="mt-8 flex gap-x-4">
+              <Image
+                  className="mt-1 h-10 w-10 flex-none rounded-full object-contain bg-gray-50"
+                  src={draLauraRezende}
+                  alt=""
+                  priority
+                  sizes="(min-width: 1280px) 17.5rem, (min-width: 1024px) 25vw, (min-width: 768px) 33vw, (min-width: 640px) 50vw, 100vw"
+              />
                 <div className="text-sm leading-6">
                   <div className="font-semibold text-gray-900">Dra. Laura Rezende</div>
+                  <div className="font-base italic text-gray-900"> Presidente do COLAFO 2024</div>
                 </div>
               </figcaption>
             </figure>

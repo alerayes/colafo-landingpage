@@ -15,6 +15,7 @@ import { ApoioInstitucional } from '@/components/ApoioInstitucional'
 import { Coquetel } from '@/components/Coquetel'
 import { ProgramaCultural } from '@/components/ProgramaCultural'
 import { SpanishSchedule } from '@/components/SpanishSchedule'
+import { Patrocinio } from '@/components/Patrocinio'
 
 
 export default function Home() {
@@ -37,17 +38,18 @@ export default function Home() {
       <Header language={language} handleLanguageChange={handleLanguageChange} />
       <main>
         <Hero language={language}/>
-        <Inscricoes language={language} />
         <Event language={language}/>
         <ComissaoOrganizacao language={language} />
         { language === 'pt' ?
          <Schedule language={language} />
          :
          <SpanishSchedule language={language}/>
-        } 
+        }
+        <Inscricoes language={language} /> 
         <Local language={language}/>
         <AgenciaOficial language={language}/>
         <Realizacao language={language}/>
+        <Patrocinio />
         <ApoioInstitucional language={language}/>
         <Coquetel language={language}/>
         <ProgramaCultural language={language}/>  

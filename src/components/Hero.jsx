@@ -13,7 +13,7 @@ export function Hero({language}) {
               { language === 'pt' ?
               'Congresso Latino-Americano de'
               :
-              'Congresso Latinomericano de'
+              'Congreso Latinoamericano de'
               }
             </span> 
             <span className='text-primary-green'> 
