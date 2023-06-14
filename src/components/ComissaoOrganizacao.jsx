@@ -18,37 +18,37 @@ import draPauliniaAraya from '@/images/avatars/drapauliniaaraya.jpeg'
 const comissaoOrganizadora = [
     {
         id: 1,
-        name: 'Dra. Patricia Figueira',
+        name: 'Dra. Patricia Figueira 🇧🇷',
         role: 'Presidente',
         image: draPatriciaFigueira,
     },
     {
         id: 2,
-        name: 'Dra. Ana Carolina Gonçalves',
-        role: '',
-        image: draAnaCarolinaGoncalves,
-    },
-    {
-        id: 3,
-        name: 'Dra. Ana Paula Oliveira',
-        role: '',
+        name: 'Dra. Ana Paula Oliveira 🇧🇷',
+        role: 'Coordenadora de Ensino BioOnco ',
         image: draAnaPaulaOliveira,
     },
     {
+      id: 3,
+      name: 'Dra. Ana Carolina Gonçalves 🇧🇷',
+      role: '',
+      image: draAnaCarolinaGoncalves,
+    },
+    {
         id: 4,
-        name: 'Dra. Andreia Nunes',
+        name: 'Dra. Andreia Nunes 🇧🇷',
         role: '',
         image: draAndreiaNunes, 
     },
     {
         id: 5,
-        name: 'Dra. Beatriz Fernandes',
+        name: 'Dra. Beatriz Fernandes 🇧🇷',
         role: '',
         image: draBeatrizFernandes,
     },
     {
         id: 6,
-        name: 'Dra. Débora Candeias',
+        name: 'Dra. Débora Candeias 🇧🇷',
         role: '',
         image: draDeboraCandeias,
     },  
@@ -57,31 +57,31 @@ const comissaoOrganizadora = [
 const comissaoCientifica = [
   {
     id: 1,
-    name: 'Dra. Laura Rezende',
+    name: 'Dra. Laura Rezende 🇧🇷',
     role: 'Presidente',
     image: draLauraRezende
   },
   {
     id: 2,
-    name: 'Dra. Andrea Mendoza',
+    name: 'Dra. Andrea Mendoza 🇦🇷',
     role: '',
     image: draAndreaMendoza
   },
   {
     id: 3,
-    name: 'Dra. Grasiane Breggue',
+    name: 'Dra. Grasiane Breggue 🇧🇷',
     role: '',
     image: draGrasianeBreggue
   },
   {
     id: 4,
-    name: 'Dra. Juliana Lenzi',
+    name: 'Dra. Juliana Lenzi 🇧🇷',
     role: '',
     image: draJulianaLenzi
   },
   {
     id: 5,
-    name: 'Paulínia Araya',
+    name: 'Dra. Paulina Araya 🇨🇱',
     role: '',
     image: draPauliniaAraya
   },
