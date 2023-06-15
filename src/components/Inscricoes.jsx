@@ -42,7 +42,7 @@ const dataPortuguese = [
   },
   { 
     id: 5,
-    categoria: 'Curso Pré Congresso Internacional Linfedema', 
+    categoria: 'Curso Pré Congresso Reabilitação Integrativa', 
     primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
     terceiraData: 'R$ 300,00',
