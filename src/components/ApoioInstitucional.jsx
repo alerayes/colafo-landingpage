@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Container } from '@/components/Container'
 import AbraleLogo from '@/images/logos/abrale-logo.png'
 import AFOALogo from '@/images/logos/afoa-logo.jpeg'
+import UNIFAELogo from '@/images/logos/unifae-logo.jpeg'
 
 
 export function ApoioInstitucional() {
@@ -17,15 +18,18 @@ export function ApoioInstitucional() {
             Apoio Institucional
           </h2>
         </div>
-        <div className="py-2 mx-auto mb-8  place-content-center ">
+        <div className="py-2 mx-auto mb-8 place-content-center ">
             <div
-              className="flex items-center justify-center"
+              className="flex flex-col items-center justify-center md:flex-row "
             >
-              <a href="https://www.abrale.org.br/">
+              <a href="https://www.abrale.org.br/" className=''>
                   <Image src={AbraleLogo} alt={'abrale-logo'} unoptimized width={300} height={140}/>
               </a>
-              <a href="">
+              <a href="" className=''>
                   <Image src={AFOALogo} alt={'afoa-logo'} unoptimized width={140} height={50}/>
+              </a>
+              <a href="" className=' ml-6 mt-6'>
+                  <Image src={UNIFAELogo} alt={'afoa-logo'} unoptimized width={220} height={150}/>
               </a>
             </div>
         </div>

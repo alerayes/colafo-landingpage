@@ -211,7 +211,7 @@ export function Inscricoes({language}) {
               type="button"
               className="rounded-md bg-primary-green px-3.5 py-2.5 text-md font-semibold text-white shadow-sm hover:bg-light-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              <a href="https://www.sympla.com.br/eventos/congresso-palestra">
+              <a href="https://www.sympla.com.br/congresso-latino-americano-de-fisioterapia-em-oncologia__1955700">
               { language === 'pt' ?
                 'Inscreva-se Agora'
               :
