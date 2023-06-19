@@ -1,7 +1,4 @@
-import Image from 'next/image'
-
 import { Container } from '@/components/Container'
-
 
 
 export function Patrocinio() {
@@ -16,10 +13,12 @@ export function Patrocinio() {
             Seja um patrocinador
           </h2>
         </div>
-        <div className='mb-10'>
-            <p className=' tracking-tight text-center text-md text-decoration underline text-slate-900'>
+        <div className='mb-10 flex'>
+            <a className=' tracking-tight mx-auto text-md text-decoration underline text-slate-900'
+               href='/booking-comercial.pdf'
+               download='booking-comercial.pdf'>
                 Baixe o booking comercial
-            </p>
+            </a>
         </div>
         <div className="mx-auto my-4 h-px w-64 bg-primary-green/50" />
       </Container>

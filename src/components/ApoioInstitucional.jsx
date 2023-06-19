@@ -4,6 +4,7 @@ import { Container } from '@/components/Container'
 import AbraleLogo from '@/images/logos/abrale-logo.png'
 import AFOALogo from '@/images/logos/afoa-logo.jpeg'
 import UNIFAELogo from '@/images/logos/unifae-logo.jpeg'
+import AbralinfeLogo from '@/images/logos/abralinfe-logo.jpeg'
 
 
 export function ApoioInstitucional() {
@@ -30,6 +31,9 @@ export function ApoioInstitucional() {
               </a>
               <a href="" className=' ml-6 mt-6'>
                   <Image src={UNIFAELogo} alt={'afoa-logo'} unoptimized width={220} height={150}/>
+              </a>
+              <a href="" className=''>
+                  <Image src={AbralinfeLogo} alt={'abralinfe-logo'} unoptimized width={140} height={50}/>
               </a>
             </div>
         </div>
