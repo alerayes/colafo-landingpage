@@ -28,7 +28,7 @@ export function Hero({ language }) {
             src={isMobile ? ColafoSm : ColafoLg}
             alt="colafo-logo"
             unoptimized
-            priority={isMobile ? true : undefined}
+            priority={true}
           />
         </div>
       </Container>
