@@ -5,6 +5,7 @@ import AbraleLogo from '@/images/logos/abrale-logo.png'
 import AFOALogo from '@/images/logos/afoa-logo.jpeg'
 import UNIFAELogo from '@/images/logos/unifae-logo.jpeg'
 import AbralinfeLogo from '@/images/logos/abralinfe-logo.jpeg'
+import SochkoLogo from '@/images/logos/sochko-logo.jpeg'
 
 
 export function ApoioInstitucional() {
@@ -34,6 +35,15 @@ export function ApoioInstitucional() {
               </a>
               <a href="" className=''>
                   <Image src={AbralinfeLogo} alt={'abralinfe-logo'} unoptimized width={140} height={50}/>
+              </a>
+            </div>
+        </div>
+        <div className="py-2 mx-auto mb-8 place-content-center ">
+            <div
+              className="flex flex-col items-center justify-center md:flex-row "
+            >
+              <a href="" className='-mt-3'>
+                  <Image src={SochkoLogo} alt={'sochko-logo'} unoptimized width={200} height={140}/>
               </a>
             </div>
         </div>
