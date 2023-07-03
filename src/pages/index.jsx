@@ -10,6 +10,7 @@ import { Event } from '@/components/Event'
 import { ComissaoOrganizacao } from '@/components/ComissaoOrganizacao'
 import { Local } from '@/components/Local'
 import { Realizacao } from '@/components/Realizacao'
+import { Organizacao } from '@/components/Organizacao'
 import { AgenciaOficial } from '@/components/AgenciaOficial'
 import { ApoioInstitucional } from '@/components/ApoioInstitucional'
 import { Coquetel } from '@/components/Coquetel'
@@ -49,6 +50,7 @@ export default function Home() {
         <Local language={language}/>
         <AgenciaOficial language={language}/>
         <Realizacao language={language}/>
+        <Organizacao/>
         <Patrocinio />
         <ApoioInstitucional language={language}/>
         <Coquetel language={language}/>
