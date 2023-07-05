@@ -11,6 +11,7 @@ const navigationPortuguese = [
   { name: 'Inscrições', href: '#inscricoes' },
   { name: 'Organização', href: '#organizacao' },
   { name: 'Programação', href: '#schedule' },
+  { name: 'Palestrantes', href: '#palestrantes'},
   { name: 'Local', href: '#local' },
 ]
 
@@ -19,6 +20,7 @@ const navigationSpanish = [
   { name: 'Registros', href: '#inscricoes' },
   { name: 'Organização', href: '#organizacao' },
   { name: 'El Programa', href: '#schedule' },
+  { name: 'Palestrantes', href: '#palestrantes'},
   { name: 'Local', href: '#local' },
 ]
 
