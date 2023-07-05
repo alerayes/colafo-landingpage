@@ -188,7 +188,7 @@ const spanishSchedule = [
         start: '12:40',
       },
       {
-        name: 'Hands on : Linfedema grau 3 - como tratar?',
+        name: 'Biofeedback nas disfunções oncopélvicas',
         start: '14:00',
         end: '14:40',
         speakers: [
@@ -284,14 +284,27 @@ const spanishSchedule = [
         ]
       },
       {
-        name: 'Apresentação do Coral Sua Voz',
+        name: 'Atuação do fisioterapeuta no centro de infusão de quimioterápicos: experiência de um serviço mexicano',
         start: '17:10',
-        end: '17:40',
+        end: '17:30',
+        speakers: [
+          {
+            id: 1,
+            name: '',
+          }
+        ],
+        blocks: [
+          {
+            id: 1,
+            time: '17:25',
+            name: 'Discussão'
+          }
+        ]
       },
       {
-        name: 'Encontro Sociedades Latinoamericanas de Fisioterapia em Oncologia',
-        start: '17:40',
-        end: '18:20',
+        name: 'Apresentação do Coral Sua Voz',
+        start: '17:30',
+        end: '18:10',
       },
       {
         name: 'Coquetel de confraternização',
@@ -348,12 +361,12 @@ const spanishSchedule = [
             name: 'Disfunções urinárias no câncer ginecológico: como eu trato?',
             speaker: 'Marcela Bardin',
           },
-          {
-            id: 4,
-            time: '09:25',
-            name: 'Biofeedback nas disfunções pélvicas em pacientes oncológicos ',
-            speaker: 'Adriane Bertotto',
-          },
+          // {
+          //   id: '',
+          //   time: '',
+          //   name: '',
+          //   speaker: 'Adriane Bertotto',
+          // },
           {
             id: 5,
             time: '09:40',
@@ -648,7 +661,7 @@ function TimeSlots({ day, className }) {
           key={timeSlot.start}
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
-          <h4 className="text-lg font-bold tracking-tight text-dark-brown">
+          <h4 className="text-lg font-bold tracking-tight text-black">
             {timeSlot.name}
           </h4>
           {/* {timeSlot.speakers &&  timeSlot.speakers.map((speaker) => (
@@ -656,7 +669,7 @@ function TimeSlots({ day, className }) {
                 {speaker.name}
             </p>
           ))} */}
-          <p className="mt-1 font-mono text-sm text-slate-500">
+          <p className="mt-1 font-mono text-sm text-black font-semibold">
             <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
               {timeSlot.start}
             </time>{' '}
@@ -667,12 +680,12 @@ function TimeSlots({ day, className }) {
           </p>
           {timeSlot.blocks && timeSlot.blocks.map((block) => (
             <div key={block.id} className='mt-2'>
-              <span className="mt-1 font-mono text-sm text-start text-slate-500">
+              <span className="mt-1 font-mono text-sm text-start text-black font-semibold">
                 <time dateTime={`${day.dateTime}T${block.start}-08:00`}>
                   {block.time}
                 </time> {' '} - {' '}
               </span>
-              <span className='mt-1 tracking-tight font-semibold text-dark-brown'>
+              <span className='mt-1 tracking-tight font-semibold text-black'>
                 {block.name}
               </span>
               {/* <p className='mt-1 tracking-tight font-regular text-slate-600'>
