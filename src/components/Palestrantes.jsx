@@ -88,7 +88,7 @@ export function Palestrantes({language}) {
             id="speakers-title"
             className="font-display pt-20 pb-4 text-4xl font-display tracking-tighter text-primary-green  sm:text-5xl"
           >
-            Palestrantes
+            Palestrantes Confirmados
           </h2>
         </div>
         <h3 className='mb-4 text-2xl font-semibold text-dark-brown tracking-tighter'>
