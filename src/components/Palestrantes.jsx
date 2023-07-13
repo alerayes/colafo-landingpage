@@ -9,7 +9,24 @@ import CarolinaMozzini from '@/images/palestrantes/carolina-mozzini.jpeg'
 import EmiliaMartinez from '@/images/palestrantes/emilia-martinez.jpeg'
 import LuaAlvez from '@/images/palestrantes/lua-alves.jpeg'
 import VinicioBarros from '@/images/palestrantes/vinicio-barros.jpeg'
-
+import PatriciaFigueira from '@/images/avatars/draPatriciaFigueira.jpeg'
+import ErickaValentin from '@/images/palestrantes/ericka-valentin.jpeg'
+import CinaraSacomori from '@/images/palestrantes/cinara-sacomori.jpeg'
+import MirellaDias from '@/images/palestrantes/mirella-dias.png'
+import AngelaMarx from '@/images/palestrantes/angela-marx.jpeg'
+import LauraRezende from '@/images/palestrantes/laura-rezende.png'
+import DanielAlveno from '@/images/palestrantes/daniel-alveno.jpeg'
+import JulianaLenzi from '@/images/palestrantes/juliana-lenzi.jpeg'
+import GabrielaAbreu from '@/images/palestrantes/gabriela-abreu.jpeg'
+import PaulinaAraya from '@/images/avatars/drapauliniaaraya.jpeg'
+import AndreaMendoza from '@/images/avatars/draandreamendoza.jpeg'
+import GrasianiBreggue from '@/images/avatars/dragrasianebreggue.jpeg'
+import KamilaFavarao from '@/images/palestrantes/kamila-favarao.jpeg'
+import MarcelaBardin from '@/images/palestrantes/marcela-bardin.jpeg'
+import ClaudiaFratta from '@/images/palestrantes/claudia-fratta.jpeg'
+import LilianaTsai from '@/images/palestrantes/liliana-tsai.jpeg'
+import DanieleSalvaia from '@/images/palestrantes/daniele-salvaia.jpeg'
+import PaulaTonini from '@/images/palestrantes/paula-tonini.jpeg'
 
 
 const palestrantesNacionais = [
@@ -26,10 +43,10 @@ const palestrantesNacionais = [
         image: AlbertoBona,
     },
     {
-      id: 3,
-      name: 'Emília C Martinez 🇧🇷',
-      role: '',
-      image: EmiliaMartinez,
+        id: 3,
+        name: 'Emília C Martinez 🇧🇷',
+        role: '',
+        image: EmiliaMartinez,
     },
     {
         id: 4,
@@ -48,11 +65,118 @@ const palestrantesNacionais = [
         name: 'Carla Pereira 🇧🇷',
         role: '',
         image: CarlaPereira,
-    },  
+    },
+    {
+        id: 7,
+        name: 'Patricia Figueira 🇧🇷',
+        role: '',
+        image: PatriciaFigueira,
+    },
+    {
+        id: 8,
+        name: 'Ericka Valentin 🇧🇷',
+        role: '',
+        image: ErickaValentin
+    },
+    {
+        id: 9,
+        name: 'Cinara Sacomori 🇧🇷',
+        role: '',
+        image: CinaraSacomori
+    },
+    {
+        id: 10,
+        name: 'Mirella Dias 🇧🇷',
+        role: '',
+        image: MirellaDias
+    },
+    {
+        id: 11,
+        name: 'Ângela Marx 🇧🇷',
+        role: '',
+        image: AngelaMarx
+    },
+    {
+        id: 12,
+        name: 'Laura Rezende 🇧🇷',
+        role: '',
+        image: LauraRezende
+    },
+    {
+        id: 13,
+        name: 'Daniel Alveno 🇧🇷',
+        role: '',
+        image: DanielAlveno
+    },
+    {
+        id: 14,
+        name: 'Juliana Lenzi 🇧🇷',
+        role: '',
+        image: JulianaLenzi
+    },      
+    {
+        id: 15,
+        name: 'Gabriela Abreu 🇧🇷',
+        role: '',
+        image: GabrielaAbreu
+    },
+    {
+        id: 16,
+        name: 'Grasiani Breggue 🇧🇷',
+        role: '',
+        image: GrasianiBreggue
+    },
+    {
+        id: 17,
+        name: 'Kamila Favarão 🇧🇷',
+        role: '',
+        image: KamilaFavarao
+    },
+    {
+        id: 18,
+        name: 'Marcela Bardin 🇧🇷',
+        role: '',
+        image: MarcelaBardin
+    },
+    {
+        id: 19,
+        name: 'Claudia Fratta 🇧🇷',
+        role: '',
+        image: ClaudiaFratta
+    },
+    {
+        id: 20,
+        name: 'Liliana Tsai 🇧🇷',
+        role: '',
+        image: LilianaTsai
+    },
+    {
+        id: 21,
+        name: 'Daniele Salvaia 🇧🇷',
+        role: '',
+        image: DanieleSalvaia
+    },
+    {
+        id: 22,
+        name: 'Paula Tonini 🇧🇷',
+        role: '',
+        image: PaulaTonini
+    },                     
 ]
 
 const palestrantesInternacionais= [
-
+    {
+        id: 1,
+        name: 'Paulina Araya 🇨🇱',
+        role: '',
+        image: PaulinaAraya
+    },
+    {
+        id: 2,
+        name: 'Andrea Mendoza 🇦🇷',
+        role: '',
+        image: AndreaMendoza
+    },  
 ]
 
      
@@ -122,14 +246,14 @@ export function Palestrantes({language}) {
                   </div>
                 ))}
         </div>
-        {/* <h3 className='my-12 text-2xl font-semibold text-dark-brown tracking-tighter'>
+        <h3 className='my-12 text-2xl font-semibold text-dark-brown tracking-tighter'>
           { language === 'pt' ?
             'Palestrantes Internacionais'
             :
             'Palestrantes Internacionais'
           }
  
-        </h3> */}
+        </h3>
         <div
           className="grid grid-cols-1 items-start gap-x-4 gap-y-8  sm:gap-y-16 lg:grid-cols-4 md:grid-cols-3"
         >

@@ -8,12 +8,12 @@ export function AgenciaOficial() {
   return (
     <section id="agenciaOficial"  className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
       <Container>
-      <div className=" mt-20 mb-4 text-center lg:mx-0">
+      <div className=" mt-8 mb-4 text-center lg:mx-0">
           <h2
             id="speakers-title"
             className=" text-2xl font-semibold text-primary-green tracking-tighter"
           >
-            Agência
+            Agência Oficial
           </h2>
         </div>
         <div className="mx-auto mb-8  place-content-center ">
