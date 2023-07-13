@@ -69,7 +69,7 @@ const comissaoCientifica = [
   },
   {
     id: 3,
-    name: 'Dra. Grasiane Breggue 🇧🇷',
+    name: 'Dra. Grasiani Breggue 🇧🇷',
     role: '',
     image: draGrasianeBreggue
   },
