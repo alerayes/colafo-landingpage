@@ -20,16 +20,24 @@ export function Patrocinadores() {
           </h2>
         </div>
         <div className="mx-auto mb-8  place-content-center ">
+            <h4 className='text-center font-semibold mb-8 text-yellow-600'>Categoria Ouro</h4>
             <div
               className="flex items-center justify-center"
             >
-              <a href="" className='mb-4 mr-20'>
-                  <Image src={CLSP} alt={'clsp-logo'} unoptimized width={200} height={150}/>
+              <a href="" className='mb-8 mt-4'>
+                  <Image src={CLSP} alt={'clsp-logo'} unoptimized width={200} height={10}/>
               </a>
-              <a href="" className='mb-4 mr-20 '>
+            </div>
+        </div>
+        <div className="mx-auto mb-8  place-content-center ">
+            <h4 className='text-center font-semibold mb-12 text-zinc-500'>Categoria Prata</h4>
+            <div
+              className="flex items-center justify-center"
+            >
+              <a href="" className='mb-4 mr-12'>
                   <Image src={LEDUC} alt={'leduc-logo'} unoptimized width={160} height={100}/>
               </a>
-              <a href="" className='mb-4 '>
+              <a href="" className='mb-8 '>
                   <Image src={Quark} alt={'quark-logo'} unoptimized width={190} height={140}/>
               </a>
             </div>
