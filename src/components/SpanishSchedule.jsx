@@ -143,7 +143,7 @@ const spanishSchedule = [
           {
             id: 1,
             time: '11:20',
-            name: 'Seroma: da prevenção ao tratamento',
+            name: 'Trocar por Uso do Dry Needling na dor miofascial em pacientes com câncer de mama',
             speaker: 'Erica Fabro'
           },
           {
@@ -166,7 +166,7 @@ const spanishSchedule = [
         ]
       },
       {
-        name: 'Uso do Dry Needling na dor miofascial em pacientes oncológicos.',
+        name: 'Palestra Patrocinada Venosan',
         start: '12:20',
         end: '12:40',
         speakers: [
@@ -320,7 +320,7 @@ const spanishSchedule = [
       '',
     timeSlots: [
       {
-        name: 'Palestra Hands on: Prescrição de meias e braçadeiras',
+        name: 'Palestra Hands On',
         start: '08:00',
         end: '08:40',
         speakers: [
