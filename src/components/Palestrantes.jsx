@@ -27,6 +27,8 @@ import ClaudiaFratta from '@/images/palestrantes/claudia-fratta.jpeg'
 import LilianaTsai from '@/images/palestrantes/liliana-tsai.jpeg'
 import DanieleSalvaia from '@/images/palestrantes/daniele-salvaia.jpeg'
 import PaulaTonini from '@/images/palestrantes/paula-tonini.jpeg'
+import JoseLuisCiucci from '@/images/palestrantes/jose-luis-ciucci.jpeg'
+import AndreaMelendi from '@/images/palestrantes/andrea-melendi.jpeg'
 
 
 const palestrantesNacionais = [
@@ -80,84 +82,78 @@ const palestrantesNacionais = [
     },
     {
         id: 9,
-        name: 'Cinara Sacomori 🇧🇷',
-        role: '',
-        image: CinaraSacomori
-    },
-    {
-        id: 10,
         name: 'Mirella Dias 🇧🇷',
         role: '',
         image: MirellaDias
     },
     {
-        id: 11,
+        id: 10,
         name: 'Ângela Marx 🇧🇷',
         role: '',
         image: AngelaMarx
     },
     {
-        id: 12,
+        id: 11,
         name: 'Laura Rezende 🇧🇷',
         role: '',
         image: LauraRezende
     },
     {
-        id: 13,
+        id: 12,
         name: 'Daniel Alveno 🇧🇷',
         role: '',
         image: DanielAlveno
     },
     {
-        id: 14,
+        id: 13,
         name: 'Juliana Lenzi 🇧🇷',
         role: '',
         image: JulianaLenzi
     },      
     {
-        id: 15,
+        id: 14,
         name: 'Gabriela Abreu 🇧🇷',
         role: '',
         image: GabrielaAbreu
     },
     {
-        id: 16,
+        id: 15,
         name: 'Grasiani Breggue 🇧🇷',
         role: '',
         image: GrasianiBreggue
     },
     {
-        id: 17,
+        id: 16,
         name: 'Kamila Favarão 🇧🇷',
         role: '',
         image: KamilaFavarao
     },
     {
-        id: 18,
+        id: 17,
         name: 'Marcela Bardin 🇧🇷',
         role: '',
         image: MarcelaBardin
     },
     {
-        id: 19,
+        id: 18,
         name: 'Claudia Fratta 🇧🇷',
         role: '',
         image: ClaudiaFratta
     },
     {
-        id: 20,
+        id: 19,
         name: 'Liliana Tsai 🇧🇷',
         role: '',
         image: LilianaTsai
     },
     {
-        id: 21,
+        id: 20,
         name: 'Daniele Salvaia 🇧🇷',
         role: '',
         image: DanieleSalvaia
     },
     {
-        id: 22,
+        id: 21,
         name: 'Paula Tonini 🇧🇷',
         role: '',
         image: PaulaTonini
@@ -177,6 +173,24 @@ const palestrantesInternacionais= [
         role: '',
         image: AndreaMendoza
     },  
+    {
+        id: 3,
+        name: 'Cinara Sacomori 🇨🇱 🇧🇷 ',
+        role: '',
+        image: CinaraSacomori
+    },
+    {
+        id: 3,
+        name: 'Jose Luis Ciucci 🇦🇷',
+        role: '',
+        image: JoseLuisCiucci
+    },
+    {
+        id: 3,
+        name: 'Andrea Melendi 🇦🇷',
+        role: '',
+        image: AndreaMelendi
+    },
 ]
 
      

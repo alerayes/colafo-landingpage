@@ -24,16 +24,16 @@ export function ApoioInstitucional() {
             <div
               className="flex flex-col items-center justify-center md:flex-row "
             >
-              <a href="https://www.abrale.org.br/" className=''>
+              <a href="https://www.instagram.com/abraleoficial/" className=''>
                   <Image src={AbraleLogo} alt={'abrale-logo'} unoptimized width={300} height={140}/>
               </a>
-              <a href="" className=''>
+              <a href="https://www.instagram.com/afoa.argentina/" className=''>
                   <Image src={AFOALogo} alt={'afoa-logo'} unoptimized width={140} height={50}/>
               </a>
-              <a href="" className=' ml-6 mt-6'>
-                  <Image src={UNIFAELogo} alt={'afoa-logo'} unoptimized width={220} height={150}/>
+              <a href="https://www.instagram.com/unifae/" className=' ml-6 mt-6'>
+                  <Image src={UNIFAELogo} alt={'unifae-logo'} unoptimized width={220} height={150}/>
               </a>
-              <a href="" className=''>
+              <a href="https://www.instagram.com/abralinfe/" className=''>
                   <Image src={AbralinfeLogo} alt={'abralinfe-logo'} unoptimized width={140} height={50}/>
               </a>
             </div>

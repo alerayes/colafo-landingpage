@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import BalityLogo from '@/images/logos/bality-logo.jpeg'
 import CLSP from '@/images/patrocinadores/clsp.jpeg'
 import LEDUC from '@/images/patrocinadores/leduc.jpeg'
 import Quark from '@/images/patrocinadores/quark.jpeg'
+import Oncopuntura from '@/images/patrocinadores/oncopuntura.jpeg'
 
 
 export function Patrocinadores() {
@@ -24,7 +24,7 @@ export function Patrocinadores() {
             <div
               className="flex items-center justify-center"
             >
-              <a href="" className='mb-8 mt-4'>
+              <a href="https://www.instagram.com/clsp.distribuidora/" className='mb-8 mt-4'>
                   <Image src={CLSP} alt={'clsp-logo'} unoptimized width={200} height={10}/>
               </a>
             </div>
@@ -34,11 +34,14 @@ export function Patrocinadores() {
             <div
               className="flex items-center justify-center"
             >
-              <a href="" className='mb-4 mr-12'>
+              <a href="https://www.instagram.com/quarkmedical/" className='mb-8 mr-7 '>
+                  <Image src={Quark} alt={'quark-logo'} unoptimized width={190} height={140}/>
+              </a>
+              <a href="https://www.instagram.com/cursoleduc/" className='mb-4 mx-10'>
                   <Image src={LEDUC} alt={'leduc-logo'} unoptimized width={160} height={100}/>
               </a>
-              <a href="" className='mb-8 '>
-                  <Image src={Quark} alt={'quark-logo'} unoptimized width={190} height={140}/>
+              <a href="https://www.instagram.com/oncopuntura/" className='mb-8 '>
+                  <Image src={Oncopuntura} alt={'oncopuntura-logo'} unoptimized width={230} height={200}/>
               </a>
             </div>
         </div>
