@@ -4,8 +4,7 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 
-
-const spanishSchedule = [
+const portugueseSchedule = [
   {
     date: '11 de Abril',
     dateTime: '11-04-2024',
@@ -19,28 +18,18 @@ const spanishSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'José Luis Ciucci (Argentina)'
+            name: 'Dr. José Luis Ciucci'
           },
           {
             id: 2,
-            name: 'Andrea Mendoza (Argentina)'
+            name: 'Dra. Andrea Mendoza'
           }
         ]
       },
       {
-        name: 'Rehabilitación integrativa en oncología',
+        name: 'Curso pré-congresso 2',
         start: '14:00',
         end: '18:00',
-        speakers: [
-          {
-            id: 1,
-            name: 'Gabriel López – MD Anderson Cancer Center (EUA)'
-          },
-          {
-            id: 2,
-            name: 'Paulina Araya (Chile)',
-          }
-        ]
       },
     ]
   },
@@ -63,7 +52,7 @@ const spanishSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'Laura Rezende'
+            name: 'Dra. Laura Rezende'
           }
         ],
         blocks: [
@@ -84,13 +73,13 @@ const spanishSchedule = [
             id: 1,
             time: '09:10',
             name: 'PROMs Patient reported outcomes',
-            speaker: 'Paulina Araya (CHI)'
+            speaker: 'Dra. Paulina Araya'
           },
           {
             id: 2,
             time: '09:25',
             name: 'Termografia em Oncologia',
-            speaker: 'Gabriela Abreu (BRA)'
+            speaker: 'Dra. Gabriela Abreu'
           },
           {
             id: 3,
@@ -109,19 +98,19 @@ const spanishSchedule = [
             id: 1,
             time: '09:50',
             name: 'Linfedema: Definição, classificação e estadiamento',
-            speaker: 'José Luis Ciucci (ARG)'
+            speaker: 'Dr. José Luis Ciucci'
           },
           {
             id: 2,
             time: '10:05',
             name: 'Enfaixamento versus vestimenta inelástica: qual a melhor opção?',
-            speaker: 'Andrea Mendoza (ARG)'
+            speaker: 'Dra. Andrea Mendoza'
           },
           {
             id: 3,
             time: '10:20',
             name: 'O papel da terapia manual no tratamento do linfedema',
-            speaker: 'Ângela Marx (BRA)'
+            speaker: 'Dra. Ângela Marx'
           },
           {
             id: 4,
@@ -143,20 +132,20 @@ const spanishSchedule = [
           {
             id: 1,
             time: '11:20',
-            name: 'Trocar por Uso do Dry Needling na dor miofascial em pacientes com câncer de mama',
-            speaker: 'Erica Fabro'
+            name: 'Uso do Dry Needling na dor miofascial em pacientes com câncer de mama',
+            speaker: 'Dra. Daniele Salvaia'
           },
           {
             id: 2,
             time: '11:35',
             name: 'Pré-habilitação no câncer de mama',
-            speaker: 'Andrea Melendi(ARG)'
+            speaker: 'Dra. Andrea Melendi'
           },
           {
             id: 3,
             time: '11:50',
             name: 'Síndrome da Rede Axilar, podemos considerar uma complicação crônica?',
-            speaker: 'Patrícia Figueira (BRA)'
+            speaker: 'Dra. Patrícia Figueira'
           },
           {
             id: 4,
@@ -169,12 +158,6 @@ const spanishSchedule = [
         name: 'Palestra Patrocinada Venosan',
         start: '12:20',
         end: '12:40',
-        speakers: [
-          {
-            id: 1,
-            name: 'Daniele Salvaia'
-          }
-        ],
         blocks: [
           {
             id: 1,
@@ -188,13 +171,13 @@ const spanishSchedule = [
         start: '12:40',
       },
       {
-        name: 'Biofeedback nas disfunções oncopélvicas',
+        name: 'Palestra Hands on: Biofeedback nas disfunções oncopélvicas',
         start: '14:00',
         end: '14:40',
         speakers: [
           {
             id: 1,
-            name: 'Luiz Montoya (MEX)'
+            name: 'Dra. Adriane Bertotto'
           }
         ],
         blocks: [
@@ -215,19 +198,19 @@ const spanishSchedule = [
             id: 1,
             time: '14:40',
             name: 'Reabilitação com criocongelamento nos tumores ósseos',
-            speaker: 'Emília Cardoso Martinez (BRA) '
+            speaker: 'Dra. Emília Martinez'
           },
           {
             id: 2,
             time: '14:55',
-            name: 'Fisioterapia na oncopediatria',
-            speaker: 'Liliana Tsai (BRA)'
+            name: 'Medicina integrativa em oncopediatria',
+            speaker: 'Dra. Liliana Tsai'
           },
           {
             id: 3,
             time: '15:10',
             name: 'Caso Clínico: tratamento fisioterapêutico em paciente com Melanoma',
-            speaker: 'Larissa Campanholi (BRA)'
+            speaker: 'Dra. Larissa Campanholi'
           },
           {
             id: 4,
@@ -250,13 +233,13 @@ const spanishSchedule = [
             id: 1,
             time: '16:10',
             name: 'Câncer em Pessoas Transgêneros: o que o fisioterapeuta precisa saber?',
-            speaker: 'Luá Alves (BRA)',
+            speaker: 'Dra. Luá Alves',
           },
           {
             id: 2,
             time: '16:25',
             name: 'Reabilitação pélvica na população LGBTQIA+',
-            speaker: ' Mauro Barbosa (BRA)',
+            speaker: ' Dr. Mauro Barbosa',
           },
           {
             id: 3,
@@ -272,7 +255,7 @@ const spanishSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'Juliana Lenzi',
+            name: 'Dra. Juliana Lenzi',
           }
         ],
         blocks: [
@@ -320,13 +303,13 @@ const spanishSchedule = [
       '',
     timeSlots: [
       {
-        name: 'Palestra Hands On',
+        name: 'Palestra Hands On: Reabilitação integrativa em oncologia.',
         start: '08:00',
         end: '08:40',
         speakers: [
           {
             id: 1,
-            name: 'Anke Bergmann',
+            name: 'Dra. Paulina Araya',
           }
         ],
         blocks: [
@@ -347,28 +330,22 @@ const spanishSchedule = [
             id: 1,
             time: '08:40',
             name: 'Incontinência fecal pós cirurgia de câncer colorretal: abordagem da fisioterapia',
-            speaker: 'Cláudia Fratta',
+            speaker: 'Dra. Cláudia Fratta',
           },
           {
             id: 2,
             time: '08:55',
             name: 'Manometria anorretal de alta resolução',
-            speaker: ' Cinara Sacomori (Chile)',
+            speaker: ' Dra. Cinara Sacomori',
           },
           {
             id: 3,
             time: '09:10',
             name: 'Disfunções urinárias no câncer ginecológico: como eu trato?',
-            speaker: 'Marcela Bardin',
+            speaker: 'Dra. Marcela Bardin',
           },
-          // {
-          //   id: '',
-          //   time: '',
-          //   name: '',
-          //   speaker: 'Adriane Bertotto',
-          // },
           {
-            id: 5,
+            id: 4,
             time: '09:40',
             name: 'Discussão',
           },
@@ -384,13 +361,13 @@ const spanishSchedule = [
             id: 1,
             time: '09:55',
             name: 'Exercícios em pacientes metastáticos',
-            speaker: 'Kamila Favarão',
+            speaker: 'Dra. Kamila Favarão',
           },
           {
             id: 2,
             time: '10:10',
             name: 'Exercício de alta intensidade durante a quimioterapia',
-            speaker: 'Grasiane',
+            speaker: 'Dra. Grasiane Breggue',
           },
           {
             id: 3,
@@ -403,14 +380,18 @@ const spanishSchedule = [
         name: 'Pesquisa Clínica e inteligência artificial na Saúde',
         start: '10:35',
         end: '10:55',
-        speakers: null,
+        speakers: [
+          {
+            id: 1,
+            name: 'Dr. Paulo Fernandes',
+          }
+        ],
         blocks: [
           {
             id: 1,
             time: '10:50',
             name: 'Discussão',
-            speaker: '',
-          }
+          },
         ]
       },
       {
@@ -423,13 +404,13 @@ const spanishSchedule = [
             id: 1,
             time: '10:55',
             name: 'Cirurgia robótica no CCP e seu impacto funcional',
-            speaker: 'Telma Ribeiro - AC Camargo',
+            speaker: 'Dra. Telma Ribeiro',
           },
           {
             id: 2,
             time: '11:10',
-            name: 'Como lidar com a síndrome do ombro',
-            speaker: 'Carolina Mozzini',
+            name: 'Manejo das lesões nervosas em CCP- casos clínicos',
+            speaker: 'Dra. Carolina Mozzini',
           },
           {
             id: 3,
@@ -452,19 +433,19 @@ const spanishSchedule = [
             id: 1,
             time: '12:05',
             name: 'Fisioterapia na TMO: Cuidado Centrado no Paciente',
-            speaker: 'Marister Cocco',
+            speaker: 'Dra. Marister Cocco',
           },
           {
             id: 2,
             time: '12:20',
             name: 'Fisioterapia Oncológica na UTI prática baseada em evidência',
-            speaker: 'Vinicio',
+            speaker: 'Dr. Vinicio Barros',
           },
           {
             id: 3,
             time: '12:35',
             name: 'Terapia por CAR-T Cell e suas repercussões físicas',
-            speaker: 'Paula Tonini'
+            speaker: 'Dra. Paula Tonini'
           },
           {
             id: 4,
@@ -484,7 +465,7 @@ const spanishSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'Mirella Dias',
+            name: 'Dra. Mirella Dias',
           }
         ],
         blocks: [
@@ -505,19 +486,19 @@ const spanishSchedule = [
             id: 1,
             time: '15:10',
             name: 'Bomba peniana na disfunção erétil: Quais as evidências?',
-            speaker: 'Alberto Bona',
+            speaker: 'Dr. Alberto Bona',
           },
           {
             id: 2,
             time: '15:25',
             name: 'Sexualidade no homem com câncer',
-            speaker: 'Carla Pereira',
+            speaker: 'Dra. Carla Pereira',
           },
           {
             id: 3,
             time: '15:40',
             name: ' Gameterapia na reabilitação do câncer de próstata',
-            speaker: 'Ericka Valentim'
+            speaker: 'Dra. Ericka Valentim'
           },
           {
             id: 4,
@@ -540,13 +521,12 @@ const spanishSchedule = [
             id: 1,
             time: '16:40',
             name: 'Terapia integrativa em oncologia',
-            speaker: 'Gabriel López',
           },
           {
             id: 2,
             time: '16:55',
             name: 'A voz do fisioterapeuta na comunicação de más notícias',
-            speaker: 'Daniel Alveno',
+            speaker: 'Dr. Daniel Alveno',
           },
           {
             id: 3,
@@ -556,14 +536,14 @@ const spanishSchedule = [
         ]
       },
       {
-        name: 'Encerramento',
-        start: '17:20',
-        end: '17:30',
+        name: 'Apresentação TrupeCalli',
+        start: '17:10',
+        end: '18:10',
         speakers: null,
       },
       {
-        name: 'Apresentação TrupeCalli',
-        start: '17:30',
+        name: 'Encerramento',
+        start: '18:10',
         end: '18:30',
         speakers: null,
       },
@@ -595,13 +575,13 @@ function ScheduleTabbed() {
       className="mx-auto grid max-w-2xl grid-cols-1 gap-y-6 sm:grid-cols-2 lg:hidden"
       vertical={tabOrientation === 'vertical'}
     >
-      <Tab.List className="-mx-4 flex gap-x-4 gap-y-10 overflow-x-auto pb-4 pl-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8">
+      <Tab.List className="-mx-4 flex flex-nowrap o gap-x-2 gap-y-10  pb-4 pl-4 sm:mx-0 sm:flex-col sm:pb-0 sm:pl-0 sm:pr-8 justify-center">
         {({ selectedIndex }) =>
-          spanishSchedule.map((day, dayIndex) => (
+          portugueseSchedule.map((day, dayIndex) => (
             <div
               key={day.dateTime}
               className={clsx(
-                'relative w-3/4 flex-none pr-4 sm:w-auto sm:pr-0',
+                'relative  flex-none pr-2 pl-2  sm:w-auto   sm:pr-0',
                 dayIndex !== selectedIndex && 'opacity-70'
               )}
             >
@@ -609,7 +589,7 @@ function ScheduleTabbed() {
                 day={{
                   ...day,
                   date: (
-                    <Tab className="[&:not(:focus-visible)]:focus:outline-none">
+                    <Tab className="[&:not(:focus-visible)]:focus:outline-none text-base sm:text-lg">
                       <span className="absolute inset-0" />
                       {day.date}
                     </Tab>
@@ -621,7 +601,7 @@ function ScheduleTabbed() {
         }
       </Tab.List>
       <Tab.Panels>
-        {spanishSchedule.map((day) => (
+        {portugueseSchedule.map((day) => (
           <Tab.Panel
             key={day.dateTime}
             className="[&:not(:focus-visible)]:focus:outline-none"
@@ -640,7 +620,7 @@ function DaySummary({ day }) {
       <h3 className="text-2xl text-center font-semibold tracking-tight text-primary-green">
         <time dateTime={day.dateTime}>{day.date}</time>
       </h3>
-      <p className="mt-1.5 text-base tracking-tight text-slate-600">
+      <p className="mt-1.5 text-base tracking-tight text-slate-950">
         {day.summary}
       </p>
     </>
@@ -661,15 +641,15 @@ function TimeSlots({ day, className }) {
           key={timeSlot.start}
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
-          <h4 className="text-lg font-bold tracking-tight text-black">
+          <h4 className="text-lg font-bold tracking-tight text-slate-950">
             {timeSlot.name}
           </h4>
-          {/* {timeSlot.speakers &&  timeSlot.speakers.map((speaker) => (
-            <p className="mt-1 tracking-tight text-slate-600" key={speaker.id}>
+          {timeSlot.speakers &&  timeSlot.speakers.map((speaker) => (
+            <p className="mt-1 tracking-tight text-slate-800" key={speaker.id}>
                 {speaker.name}
             </p>
-          ))} */}
-          <p className="mt-1 font-mono text-sm text-black font-semibold">
+          ))}
+          <p className="mt-1 font-mono font-semibold text-sm text-slate-850">
             <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
               {timeSlot.start}
             </time>{' '}
@@ -680,17 +660,17 @@ function TimeSlots({ day, className }) {
           </p>
           {timeSlot.blocks && timeSlot.blocks.map((block) => (
             <div key={block.id} className='mt-2'>
-              <span className="mt-1 font-mono text-sm text-start text-black font-semibold">
+              <span className="mt-1 font-mono font-semibold text-sm text-start text-slate-850">
                 <time dateTime={`${day.dateTime}T${block.start}-08:00`}>
                   {block.time}
                 </time> {' '} - {' '}
               </span>
-              <span className='mt-1 tracking-tight font-semibold text-black'>
+              <span className='mt-1 tracking-tight font-semibold text-slate-950'>
                 {block.name}
               </span>
-              {/* <p className='mt-1 tracking-tight font-regular text-slate-600'>
+              <p className='mt-1 tracking-tight font-regular text-slate-800'>
                 {block.speaker}
-              </p> */}
+              </p>
             </div>
           ))}
 
@@ -710,7 +690,7 @@ function TimeSlots({ day, className }) {
 function ScheduleStatic() {
   return (
     <div className="hidden lg:grid lg:grid-cols-3 lg:gap-x-8">
-      {spanishSchedule.map((day) => (
+      {portugueseSchedule.map((day) => (
         <section key={day.dateTime}>
           <DaySummary day={day} />
           <TimeSlots day={day} className="mt-10" />
@@ -722,7 +702,7 @@ function ScheduleStatic() {
 
 export function SpanishSchedule({language}) {
   return (
-    <section id="schedule"  className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+    <section id="schedule" className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
       <Container className="relative z-10">
       <div className="text-center lg:mx-0">
           <h2
@@ -737,7 +717,7 @@ export function SpanishSchedule({language}) {
           </h2>
         </div>
       </Container>
-      <div className="relative mt-14">
+      <div className="relative mt-8">
         <Container className="relative">
           <ScheduleTabbed />
           <ScheduleStatic />
