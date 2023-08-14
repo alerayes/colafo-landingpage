@@ -142,14 +142,16 @@ export function Inscricoes({language}) {
                       scope="col"
                       className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-white sm:pl-6 lg:pl-8"
                     >
-                      Lote 1
+                      Categoria
                     </th>
-                    <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-white">
-                        { language === 'pt' ?
-                          'Até 20/09/2023'
-                        :
-                          'Hasta 20/09/2023'  
-                        } 
+                    <th scope="col" className="text-left text-sm font-semibold text-white">
+                          <div className='border-8 border-red-600 rounded-full px-3 py-3.5'>
+                            { language === 'pt' ?
+                              'Até 20/09/2023'
+                            :
+                              'Hasta 20/09/2023'
+                            }
+                          </div>
                     </th>
                     <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-white">
                         { language === 'pt' ?

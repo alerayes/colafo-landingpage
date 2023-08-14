@@ -5,6 +5,8 @@ import CLSP from '@/images/patrocinadores/clsp.jpeg'
 import LEDUC from '@/images/patrocinadores/leduc.jpeg'
 import Quark from '@/images/patrocinadores/quark.jpeg'
 import Oncopuntura from '@/images/patrocinadores/oncopuntura.jpeg'
+import Feijoeiro from '@/images/patrocinadores/feijoeiro-logo.jpeg'
+import Venosan from '@/images/patrocinadores/venosan-logo.jpeg'
 
 
 export function Patrocinadores() {
@@ -40,8 +42,21 @@ export function Patrocinadores() {
               <a href="https://www.instagram.com/cursoleduc/" className='mb-4 mx-10'>
                   <Image src={LEDUC} alt={'leduc-logo'} unoptimized width={160} height={100}/>
               </a>
+              <a href="https://www.instagram.com/fisiofernandafeijoeiro/?hl=en" className='mb-4 mx-10'>
+                  <Image src={Feijoeiro} alt={'fernanda-feijoeiro'} unoptimized width={180} height={130}/>
+              </a>
               <a href="https://www.instagram.com/oncopuntura/" className='mb-8 '>
                   <Image src={Oncopuntura} alt={'oncopuntura-logo'} unoptimized width={230} height={200}/>
+              </a>
+            </div>
+        </div>
+        <div className="mx-auto mb-8  place-content-center ">
+            <h4 className='text-center font-semibold mb-12 text-yellow-800'>Categoria Bronze</h4>
+            <div
+              className="flex items-center justify-center"
+            >
+              <a href="https://www.instagram.com/venosanbrasil/?hl=en" className='mb-8 mr-7 '>
+                  <Image src={Venosan} alt={'venosan-logo'} unoptimized width={270} height={170}/>
               </a>
             </div>
         </div>

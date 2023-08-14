@@ -13,7 +13,7 @@ export function Organizacao() {
             id="speakers-title"
             className=" text-2xl font-semibold text-primary-green tracking-tighter"
           >
-            Organização
+            Apoio Comercial e Científico:
           </h2>
         </div>
         <div className="mx-auto mb-8 place-content-center ">

@@ -18,28 +18,18 @@ const portugueseSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'José Luis Ciucci (Argentina)'
+            name: 'Dr. José Luis Ciucci'
           },
           {
             id: 2,
-            name: 'Andrea Mendoza (Argentina)'
+            name: 'Dra. Andrea Mendoza'
           }
         ]
       },
       {
-        name: 'Reabilitação Integrativa em Oncologia',
+        name: 'Curso pré-congresso 2',
         start: '14:00',
         end: '18:00',
-        speakers: [
-          {
-            id: 1,
-            name: 'Gabriel López – MD Anderson Cancer Center (EUA)'
-          },
-          {
-            id: 2,
-            name: 'Paulina Araya (Chile)',
-          }
-        ]
       },
     ]
   },
@@ -62,7 +52,7 @@ const portugueseSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'Laura Rezende'
+            name: 'Dra. Laura Rezende'
           }
         ],
         blocks: [
@@ -83,13 +73,13 @@ const portugueseSchedule = [
             id: 1,
             time: '09:10',
             name: 'PROMs Patient reported outcomes',
-            speaker: 'Paulina Araya (CHI)'
+            speaker: 'Dra. Paulina Araya'
           },
           {
             id: 2,
             time: '09:25',
             name: 'Termografia em Oncologia',
-            speaker: 'Gabriela Abreu (BRA)'
+            speaker: 'Dra. Gabriela Abreu'
           },
           {
             id: 3,
@@ -108,19 +98,19 @@ const portugueseSchedule = [
             id: 1,
             time: '09:50',
             name: 'Linfedema: Definição, classificação e estadiamento',
-            speaker: 'José Luis Ciucci (ARG)'
+            speaker: 'Dr. José Luis Ciucci'
           },
           {
             id: 2,
             time: '10:05',
             name: 'Enfaixamento versus vestimenta inelástica: qual a melhor opção?',
-            speaker: 'Andrea Mendoza (ARG)'
+            speaker: 'Dra. Andrea Mendoza'
           },
           {
             id: 3,
             time: '10:20',
             name: 'O papel da terapia manual no tratamento do linfedema',
-            speaker: 'Ângela Marx (BRA)'
+            speaker: 'Dra. Ângela Marx'
           },
           {
             id: 4,
@@ -143,19 +133,19 @@ const portugueseSchedule = [
             id: 1,
             time: '11:20',
             name: 'Uso do Dry Needling na dor miofascial em pacientes com câncer de mama',
-            speaker: 'Erica Fabro'
+            speaker: 'Dra. Daniele Salvaia'
           },
           {
             id: 2,
             time: '11:35',
             name: 'Pré-habilitação no câncer de mama',
-            speaker: 'Andrea Melendi(ARG)'
+            speaker: 'Dra. Andrea Melendi'
           },
           {
             id: 3,
             time: '11:50',
             name: 'Síndrome da Rede Axilar, podemos considerar uma complicação crônica?',
-            speaker: 'Patrícia Figueira (BRA)'
+            speaker: 'Dra. Patrícia Figueira'
           },
           {
             id: 4,
@@ -168,12 +158,6 @@ const portugueseSchedule = [
         name: 'Palestra Patrocinada Venosan',
         start: '12:20',
         end: '12:40',
-        speakers: [
-          {
-            id: 1,
-            name: 'Daniele Salvaia'
-          }
-        ],
         blocks: [
           {
             id: 1,
@@ -187,13 +171,13 @@ const portugueseSchedule = [
         start: '12:40',
       },
       {
-        name: 'Biofeedback nas disfunções oncopélvicas',
+        name: 'Palestra Hands on: Biofeedback nas disfunções oncopélvicas',
         start: '14:00',
         end: '14:40',
         speakers: [
           {
             id: 1,
-            name: 'Luiz Montoya (MEX)'
+            name: 'Dra. Adriane Bertotto'
           }
         ],
         blocks: [
@@ -214,19 +198,19 @@ const portugueseSchedule = [
             id: 1,
             time: '14:40',
             name: 'Reabilitação com criocongelamento nos tumores ósseos',
-            speaker: 'Emília Cardoso Martinez (BRA) '
+            speaker: 'Dra. Emília Martinez'
           },
           {
             id: 2,
             time: '14:55',
-            name: 'Fisioterapia na oncopediatria',
-            speaker: 'Liliana Tsai (BRA)'
+            name: 'Medicina integrativa em oncopediatria',
+            speaker: 'Dra. Liliana Tsai'
           },
           {
             id: 3,
             time: '15:10',
             name: 'Caso Clínico: tratamento fisioterapêutico em paciente com Melanoma',
-            speaker: 'Larissa Campanholi (BRA)'
+            speaker: 'Dra. Larissa Campanholi'
           },
           {
             id: 4,
@@ -249,13 +233,13 @@ const portugueseSchedule = [
             id: 1,
             time: '16:10',
             name: 'Câncer em Pessoas Transgêneros: o que o fisioterapeuta precisa saber?',
-            speaker: 'Luá Alves (BRA)',
+            speaker: 'Dra. Luá Alves',
           },
           {
             id: 2,
             time: '16:25',
             name: 'Reabilitação pélvica na população LGBTQIA+',
-            speaker: ' Mauro Barbosa (BRA)',
+            speaker: ' Dr. Mauro Barbosa',
           },
           {
             id: 3,
@@ -271,7 +255,7 @@ const portugueseSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'Juliana Lenzi',
+            name: 'Dra. Juliana Lenzi',
           }
         ],
         blocks: [
@@ -319,13 +303,13 @@ const portugueseSchedule = [
       '',
     timeSlots: [
       {
-        name: 'Palestra Hands On',
+        name: 'Palestra Hands On: Reabilitação integrativa em oncologia.',
         start: '08:00',
         end: '08:40',
         speakers: [
           {
             id: 1,
-            name: 'Anke Bergmann',
+            name: 'Dra. Paulina Araya',
           }
         ],
         blocks: [
@@ -346,28 +330,22 @@ const portugueseSchedule = [
             id: 1,
             time: '08:40',
             name: 'Incontinência fecal pós cirurgia de câncer colorretal: abordagem da fisioterapia',
-            speaker: 'Cláudia Fratta',
+            speaker: 'Dra. Cláudia Fratta',
           },
           {
             id: 2,
             time: '08:55',
             name: 'Manometria anorretal de alta resolução',
-            speaker: ' Cinara Sacomori (Chile)',
+            speaker: ' Dra. Cinara Sacomori',
           },
           {
             id: 3,
             time: '09:10',
             name: 'Disfunções urinárias no câncer ginecológico: como eu trato?',
-            speaker: 'Marcela Bardin',
+            speaker: 'Dra. Marcela Bardin',
           },
-          // {
-          //   id: '',
-          //   time: '',
-          //   name: '',
-          //   speaker: 'Adriane Bertotto',
-          // },
           {
-            id: 5,
+            id: 4,
             time: '09:40',
             name: 'Discussão',
           },
@@ -383,13 +361,13 @@ const portugueseSchedule = [
             id: 1,
             time: '09:55',
             name: 'Exercícios em pacientes metastáticos',
-            speaker: 'Kamila Favarão',
+            speaker: 'Dra. Kamila Favarão',
           },
           {
             id: 2,
             time: '10:10',
             name: 'Exercício de alta intensidade durante a quimioterapia',
-            speaker: 'Grasiane',
+            speaker: 'Dra. Grasiane Breggue',
           },
           {
             id: 3,
@@ -402,14 +380,18 @@ const portugueseSchedule = [
         name: 'Pesquisa Clínica e inteligência artificial na Saúde',
         start: '10:35',
         end: '10:55',
-        speakers: null,
+        speakers: [
+          {
+            id: 1,
+            name: 'Dr. Paulo Fernandes',
+          }
+        ],
         blocks: [
           {
             id: 1,
             time: '10:50',
             name: 'Discussão',
-            speaker: '',
-          }
+          },
         ]
       },
       {
@@ -422,13 +404,13 @@ const portugueseSchedule = [
             id: 1,
             time: '10:55',
             name: 'Cirurgia robótica no CCP e seu impacto funcional',
-            speaker: 'Telma Ribeiro - AC Camargo',
+            speaker: 'Dra. Telma Ribeiro',
           },
           {
             id: 2,
             time: '11:10',
-            name: 'Como lidar com a síndrome do ombro',
-            speaker: 'Carolina Mozzini',
+            name: 'Manejo das lesões nervosas em CCP- casos clínicos',
+            speaker: 'Dra. Carolina Mozzini',
           },
           {
             id: 3,
@@ -451,19 +433,19 @@ const portugueseSchedule = [
             id: 1,
             time: '12:05',
             name: 'Fisioterapia na TMO: Cuidado Centrado no Paciente',
-            speaker: 'Marister Cocco',
+            speaker: 'Dra. Marister Cocco',
           },
           {
             id: 2,
             time: '12:20',
             name: 'Fisioterapia Oncológica na UTI prática baseada em evidência',
-            speaker: 'Vinicio',
+            speaker: 'Dr. Vinicio Barros',
           },
           {
             id: 3,
             time: '12:35',
             name: 'Terapia por CAR-T Cell e suas repercussões físicas',
-            speaker: 'Paula Tonini'
+            speaker: 'Dra. Paula Tonini'
           },
           {
             id: 4,
@@ -483,7 +465,7 @@ const portugueseSchedule = [
         speakers: [
           {
             id: 1,
-            name: 'Mirella Dias',
+            name: 'Dra. Mirella Dias',
           }
         ],
         blocks: [
@@ -504,19 +486,19 @@ const portugueseSchedule = [
             id: 1,
             time: '15:10',
             name: 'Bomba peniana na disfunção erétil: Quais as evidências?',
-            speaker: 'Alberto Bona',
+            speaker: 'Dr. Alberto Bona',
           },
           {
             id: 2,
             time: '15:25',
             name: 'Sexualidade no homem com câncer',
-            speaker: 'Carla Pereira',
+            speaker: 'Dra. Carla Pereira',
           },
           {
             id: 3,
             time: '15:40',
             name: ' Gameterapia na reabilitação do câncer de próstata',
-            speaker: 'Ericka Valentim'
+            speaker: 'Dra. Ericka Valentim'
           },
           {
             id: 4,
@@ -539,13 +521,12 @@ const portugueseSchedule = [
             id: 1,
             time: '16:40',
             name: 'Terapia integrativa em oncologia',
-            speaker: 'Gabriel López',
           },
           {
             id: 2,
             time: '16:55',
             name: 'A voz do fisioterapeuta na comunicação de más notícias',
-            speaker: 'Daniel Alveno',
+            speaker: 'Dr. Daniel Alveno',
           },
           {
             id: 3,
@@ -555,14 +536,14 @@ const portugueseSchedule = [
         ]
       },
       {
-        name: 'Encerramento',
-        start: '17:20',
-        end: '17:30',
+        name: 'Apresentação TrupeCalli',
+        start: '17:10',
+        end: '18:10',
         speakers: null,
       },
       {
-        name: 'Apresentação TrupeCalli',
-        start: '17:30',
+        name: 'Encerramento',
+        start: '18:10',
         end: '18:30',
         speakers: null,
       },
@@ -663,11 +644,11 @@ function TimeSlots({ day, className }) {
           <h4 className="text-lg font-bold tracking-tight text-slate-950">
             {timeSlot.name}
           </h4>
-          {/* {timeSlot.speakers &&  timeSlot.speakers.map((speaker) => (
+          {timeSlot.speakers &&  timeSlot.speakers.map((speaker) => (
             <p className="mt-1 tracking-tight text-slate-800" key={speaker.id}>
                 {speaker.name}
             </p>
-          ))} */}
+          ))}
           <p className="mt-1 font-mono font-semibold text-sm text-slate-850">
             <time dateTime={`${day.dateTime}T${timeSlot.start}-08:00`}>
               {timeSlot.start}
@@ -687,9 +668,9 @@ function TimeSlots({ day, className }) {
               <span className='mt-1 tracking-tight font-semibold text-slate-950'>
                 {block.name}
               </span>
-              {/* <p className='mt-1 tracking-tight font-regular text-slate-800'>
+              <p className='mt-1 tracking-tight font-regular text-slate-800'>
                 {block.speaker}
-              </p> */}
+              </p>
             </div>
           ))}
 
