@@ -21,8 +21,8 @@ export function Patrocinadores() {
             Patrocinadores
           </h2>
         </div>
-        <div className="mx-auto mb-8  place-content-center ">
-            <h4 className='text-center font-semibold mb-8 text-yellow-600'>Categoria Ouro</h4>
+        <div className="mx-auto mb-10 mt-2  place-content-center ">
+            <h4 className='text-center font-semibold mb-8 text-yellow-600 text-lg'>Categoria Ouro</h4>
             <div
               className="flex items-center justify-center"
             >
@@ -31,8 +31,8 @@ export function Patrocinadores() {
               </a>
             </div>
         </div>
-        <div className="mx-auto mb-8  place-content-center ">
-            <h4 className='text-center font-semibold mb-12 text-zinc-500'>Categoria Prata</h4>
+        <div className="mx-auto mb-12 mt-2  place-content-center ">
+            <h4 className='text-center font-semibold mb-12 text-zinc-500 text-lg'>Categoria Prata</h4>
             <div
               className="flex items-center justify-center"
             >
@@ -50,8 +50,8 @@ export function Patrocinadores() {
               </a>
             </div>
         </div>
-        <div className="mx-auto mb-8  place-content-center ">
-            <h4 className='text-center font-semibold mb-12 text-yellow-800'>Categoria Bronze</h4>
+        <div className="mx-auto mb-10 mt-2  place-content-center ">
+            <h4 className='text-center font-semibold mb-12 text-yellow-800 text-lg'>Categoria Bronze</h4>
             <div
               className="flex items-center justify-center"
             >
