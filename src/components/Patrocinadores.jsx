@@ -32,9 +32,9 @@ export function Patrocinadores() {
             </div>
         </div>
         <div className="mx-auto mb-12 mt-2  place-content-center ">
-            <h4 className='text-center font-semibold mb-12 text-zinc-500 text-lg'>Categoria Prata</h4>
+            <h4 className='text-center font-semibold mb-12 text-zinc-500 text-xl'>Categoria Prata</h4>
             <div
-              className="flex items-center justify-center"
+              className="flex flex-col items-center justify-center md:flex-row "
             >
               <a href="https://www.instagram.com/quarkmedical/" className='mb-8 mr-7 '>
                   <Image src={Quark} alt={'quark-logo'} unoptimized width={190} height={140}/>
