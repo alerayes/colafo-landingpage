@@ -24,8 +24,17 @@ const dataPortuguese = [
     terceiraData: 'R$ 880,00',
     noLocal: 'R$ 1000,00' 
   },
-  { 
+  {
     id: 3,
+    categoria: 'Residentes e Associados Das Instituições Parceira',
+    primeiraData: 'R$ 660,00', 
+    segundaData: 'R$ 770,00', 
+    terceiraData: 'R$ 880,00',
+    noLocal: 'R$ 1000,00' 
+
+  },
+  { 
+    id: 4,
     categoria: 'Profissionais', 
     primeiraData: 'R$ 770,00', 
     segundaData: 'R$ 880,00', 
@@ -33,7 +42,7 @@ const dataPortuguese = [
     noLocal: 'R$ 1000,00' 
   },
   { 
-    id: 4,
+    id: 5,
     categoria: 'Curso Pré Congresso Internacional Linfedema', 
     primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
@@ -41,7 +50,7 @@ const dataPortuguese = [
     noLocal: 'R$ 350,00' 
   },
   { 
-    id: 5,
+    id: 6,
     categoria: 'Curso Pré Congresso Reabilitação Integrativa', 
     primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
@@ -49,7 +58,7 @@ const dataPortuguese = [
     noLocal: 'R$ 350,00' 
   },
   { 
-    id: 6,
+    id: 7,
     categoria: 'Coquetel/ Networking', 
     primeiraData: 'R$ 100,00', 
     segundaData: 'R$ 150,00', 

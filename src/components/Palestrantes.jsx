@@ -29,6 +29,7 @@ import DanieleSalvaia from '@/images/palestrantes/daniele-salvaia.jpeg'
 import PaulaTonini from '@/images/palestrantes/paula-tonini.jpeg'
 import JoseLuisCiucci from '@/images/palestrantes/jose-luis-ciucci.jpeg'
 import AndreaMelendi from '@/images/palestrantes/andrea-melendi.jpeg'
+import AnaLauraGonzales from '@/images/palestrantes/ana-laura-gonzales.jpeg'
 
 
 const palestrantesNacionais = [
@@ -191,6 +192,12 @@ const palestrantesInternacionais= [
         role: '',
         image: AndreaMelendi
     },
+    {
+      id: 4,
+      name: 'Ana Laura Gonzàlez 🇲🇽',
+      role: '',
+      image: AnaLauraGonzales
+    }
 ]
 
      
