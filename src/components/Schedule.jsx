@@ -768,7 +768,7 @@ function TimeSlots({ day, className }) {
                 {block.name}
               </span>
               { block.blockDetails && block.blockDetails.map((detail) => (
-                <p className='mt-1 tracking-tight font-semibold text-slate-950'>
+                <p key={detail.id} className='mt-1 tracking-tight font-semibold text-slate-950'>
                   {detail.detail}
                 </p>
               ))
