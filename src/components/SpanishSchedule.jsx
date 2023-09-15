@@ -15,21 +15,120 @@ const portugueseSchedule = [
         name: 'Linfedema: desde las bases anatómicas hasta el tratamiento',
         start: '08:00',
         end: '12:00',
-        speakers: [
+        speakers: null,
+        blocks: [
           {
             id: 1,
-            name: 'Dr. José Luis Ciucci'
+            time: '8:00',
+            name: 'Bases anatômicas para El tratamiento Del linfedema',
+            speaker: 'Dr. José Luis Ciucci'
           },
           {
             id: 2,
-            name: 'Dra. Andrea Mendoza'
+            time: '8:40',
+            name: 'Linfedema, fisiologia e fisiopatologia',
+            speaker: 'Dr. José Luis Ciucci'
+          },
+          {
+            id: 3,
+            time: '9:30',
+            name: 'Tratamiento físico combinado Del linfedema Klga',
+            speaker: 'Dra. Andrea Lourdes Mendoza'
+          },
+          {
+            id: 4,
+            time: '10:15',
+            name: 'Break',
+          },
+          {
+            id: 5,
+            time: '10:30',
+            name: 'Tratamiento transdisciplinario Del linfedema ',
+            speaker: 'Dr. José Luis Ciucci'
+          },
+          {
+            id: 6,
+            time: '11:15',
+            name: 'Mostracíon prática de vendaje multicapas y prendas de compresión inelástica com velcro Klga',
+            speaker: 'Dra. Andrea Lourdes Mendoza'
+          },
+          {
+            id: 7,
+            time: null,
+            warning: '* Curso ministrado em espanhol sem tradução simultânea, contaremos com suporte'
           }
         ]
       },
       {
-        name: 'Curso pré-congresso 2',
+        name: 'Fisioterapia Oncológica Hospitalar: da avaliação funcional aos cuidados intensivos',
         start: '14:00',
         end: '18:00',
+        speakers: [
+          {
+            id: 1,
+            name: 'Dr. Vinicio Barros'
+          },
+          {
+            id: 2,
+            name: 'Dr. Diego Brito'
+          },
+        ],
+        blocks: [
+          {
+            id: 1,
+            time: '',
+            name: 'Avaliação Fisioterapêutica do Paciente Oncológico no ambiente hospitalar',
+            speaker: ''
+          },
+          {
+            id: 2,
+            time: '',
+            name: 'Avaliação de força muscular respiratória e periferica',
+            blockDetails: [
+              {
+                id: 1,
+                detail: '• Dinamometria '
+              },
+              {
+                id: 2,
+                detail: '• Manovacuometria '
+              },
+              {
+                id: 3,
+                detail: '• Peak-Flow '
+              },
+            ],
+            speaker: ''
+          },
+          {
+            id: 3,
+            time: '',
+            name: 'Testes de Aptidão Funcional Cardiorrespiratória',
+            speaker: ''
+          },
+          {
+            id: 4,
+            time: '',
+            name: 'Avaliação de funcionalidade',
+            speaker: '',
+            blockDetails: [
+              {
+                id: 1,
+                detail: '• Escalas de funcionalidade'
+              },
+              {
+                id: 2,
+                detail: '• Testes funcionais'
+              }
+            ]
+          },
+          {
+            id: 5,
+            time: '',
+            name: 'Prescrição de exercícios',
+            speaker: '',
+          },
+        ]
       },
     ]
   },
@@ -273,7 +372,7 @@ const portugueseSchedule = [
         speakers: [
           {
             id: 1,
-            name: '',
+            name: 'Ana Laura Gonzàlez',
           }
         ],
         blocks: [
@@ -663,13 +762,22 @@ function TimeSlots({ day, className }) {
               <span className="mt-1 font-mono font-semibold text-sm text-start text-slate-850">
                 <time dateTime={`${day.dateTime}T${block.start}-08:00`}>
                   {block.time}
-                </time> {' '} - {' '}
+                </time> {' '} {block.time ? '-' : ''} {' '}
               </span>
               <span className='mt-1 tracking-tight font-semibold text-slate-950'>
                 {block.name}
               </span>
+              { block.blockDetails && block.blockDetails.map((detail) => (
+                <p key={detail.id} className='mt-1 tracking-tight font-semibold text-slate-950'>
+                  {detail.detail}
+                </p>
+              ))
+              }
               <p className='mt-1 tracking-tight font-regular text-slate-800'>
                 {block.speaker}
+              </p>
+              <p className='mt-12 tracking-tight font-regular text-slate-800 text-sm'>
+                {block.warning}
               </p>
             </div>
           ))}
