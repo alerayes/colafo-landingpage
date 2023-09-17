@@ -6,6 +6,7 @@ import AFOALogo from '@/images/logos/afoa-logo.jpeg'
 import UNIFAELogo from '@/images/logos/unifae-logo.jpeg'
 import AbralinfeLogo from '@/images/logos/abralinfe-logo.jpeg'
 import SochkoLogo from '@/images/logos/sochko-logo.jpeg'
+import omLogo from '@/images/logos/om-logo.png'
 
 
 export function ApoioInstitucional() {
@@ -42,8 +43,11 @@ export function ApoioInstitucional() {
             <div
               className="flex flex-col items-center justify-center md:flex-row "
             >
-              <a href="" className='-mt-3'>
+              <a href="https://www.instagram.com/sochkochile/?hl=en" className='-mt-3'>
                   <Image src={SochkoLogo} alt={'sochko-logo'} unoptimized width={200} height={140}/>
+              </a>
+              <a href="https://www.instagram.com/oncomovimento/?hl=en" className='-mt-3 ml-4'>
+                  <Image src={omLogo} alt={'om-logo'} unoptimized width={260} height={140}/>
               </a>
             </div>
         </div>
