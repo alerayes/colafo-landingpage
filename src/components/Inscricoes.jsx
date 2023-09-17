@@ -51,7 +51,7 @@ const dataPortuguese = [
   },
   { 
     id: 6,
-    categoria: 'Curso Pré Congresso Reabilitação Integrativa', 
+    categoria: 'Fisioterapia Oncológica Hospitalar: da avaliação funcional aos cuidados intensivos', 
     primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
     terceiraData: 'R$ 300,00',

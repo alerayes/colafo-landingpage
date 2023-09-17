@@ -32,7 +32,7 @@ const portugueseSchedule = [
           {
             id: 3,
             time: '9:30',
-            name: 'Tratamiento físico combinado Del linfedema Klga',
+            name: 'Tratamiento físico combinado Del linfedema',
             speaker: 'Dra. Andrea Lourdes Mendoza'
           },
           {
@@ -49,7 +49,7 @@ const portugueseSchedule = [
           {
             id: 6,
             time: '11:15',
-            name: 'Mostracíon prática de vendaje multicapas y prendas de compresión inelástica com velcro Klga',
+            name: 'Mostracíon prática de vendaje multicapas y prendas de compresión inelástica com velcro',
             speaker: 'Dra. Andrea Lourdes Mendoza'
           },
           {
