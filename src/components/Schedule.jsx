@@ -380,6 +380,11 @@ const portugueseSchedule = [
             id: 1,
             time: '17:25',
             name: 'Discussão'
+          },
+          {
+            id: 2,
+            time: null,
+            warning: '* Aula pré-gravada'
           }
         ]
       },
