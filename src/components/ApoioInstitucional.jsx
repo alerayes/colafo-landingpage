@@ -18,7 +18,7 @@ export function ApoioInstitucional() {
             id="speakers-title"
             className=" text-2xl font-semibold text-primary-green tracking-tighter"
           >
-            Apoio Institucional
+            Apoiadores
           </h2>
         </div>
         <div className="py-2 mx-auto mb-8 place-content-center ">

@@ -7,6 +7,8 @@ import Quark from '@/images/patrocinadores/quark.jpeg'
 import Oncopuntura from '@/images/patrocinadores/oncopuntura.jpeg'
 import Feijoeiro from '@/images/patrocinadores/feijoeiro-logo.jpeg'
 import Venosan from '@/images/patrocinadores/venosan-logo.jpeg'
+import Intima from '@/images/patrocinadores/intima-logo.jpeg'
+
 
 
 export function Patrocinadores() {
@@ -18,7 +20,7 @@ export function Patrocinadores() {
             id="speakers-title"
             className=" text-2xl font-semibold text-primary-green tracking-tighter"
           >
-            Patrocinadores
+            Expositores
           </h2>
         </div>
         <div className="mx-auto mb-10 mt-2  place-content-center ">
@@ -51,12 +53,15 @@ export function Patrocinadores() {
             </div>
         </div>
         <div className="mx-auto mb-10 mt-2  place-content-center ">
-            <h4 className='text-center font-semibold mb-12 text-yellow-800 text-lg'>Categoria Bronze</h4>
+            <h4 className='text-center font-semibold  text-yellow-800 text-lg'>Categoria Bronze</h4>
             <div
               className="flex items-center justify-center"
             >
               <a href="https://www.instagram.com/venosanbrasil/?hl=en" className='mb-8 mr-7 '>
                   <Image src={Venosan} alt={'venosan-logo'} unoptimized width={270} height={170}/>
+              </a>
+              <a href="https://www.instagram.com/intimmasaude/?hl=en" className='mb-8 mr-7 '>
+                  <Image src={Intima} alt={'intima-logo'} unoptimized width={270} height={170}/>
               </a>
             </div>
         </div>
