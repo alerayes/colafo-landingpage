@@ -19,6 +19,7 @@ import { SpanishSchedule } from '@/components/SpanishSchedule'
 import { Patrocinio } from '@/components/Patrocinio'
 import { Palestrantes } from '@/components/Palestrantes'
 import { Patrocinadores } from '@/components/Patrocinadores'
+import { PatrocinadoresGerais } from '@/components/PatrocinadoresGerais'
 
 
 export default function Home() {
@@ -52,6 +53,7 @@ export default function Home() {
         <Inscricoes language={language} /> 
         <Local language={language}/>
         <Patrocinadores language={language}/>
+        <PatrocinadoresGerais language={language} />
         <AgenciaOficial language={language}/>
         <Realizacao language={language}/>
         <Organizacao/>
