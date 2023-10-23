@@ -26,7 +26,7 @@ const dataPortuguese = [
   },
   {
     id: 3,
-    categoria: 'Residentes e Associados Das Instituições Parceira',
+    categoria: 'Residentes e Associados Das Instituições Parceira (AFOA, SOCHKO, ABRAFISM)',
     primeiraData: 'R$ 660,00', 
     segundaData: 'R$ 770,00', 
     terceiraData: 'R$ 880,00',
@@ -154,20 +154,20 @@ export function Inscricoes({language}) {
                       Categoria
                     </th>
                     <th scope="col" className="text-left text-sm font-semibold text-white">
-                          <div className='border-8 border-red-600 rounded-full px-3 py-3.5'>
-                            { language === 'pt' ?
-                              'Até 20/09/2023'
-                            :
-                              'Hasta 20/09/2023'
-                            }
-                          </div>
-                    </th>
-                    <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-white">
                         { language === 'pt' ?
-                          'Até 20/12/2023'
-                        :
-                          'Hasta 20/12/2023'  
-                        }  
+                          'Até 20/09/2023'
+                            :
+                          'Hasta 20/09/2023'
+                        }
+                    </th>
+                    <th scope="col" className=" text-left text-sm font-semibold text-white">
+                        <div className='border-8 border-red-600 rounded-full px-3 py-3.5'>
+                          { language === 'pt' ?
+                            'Até 30/11/2023'
+                          :
+                            'Hasta 30/11/2023'
+                          }
+                        </div> 
                     </th>
                     <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-white">
                         { language === 'pt' ?

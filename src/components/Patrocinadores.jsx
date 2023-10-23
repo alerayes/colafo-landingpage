@@ -52,15 +52,15 @@ export function Patrocinadores() {
               </a>
             </div>
         </div>
-        <div className="mx-auto mb-10 mt-2  place-content-center ">
+        <div className="mx-auto mb-4 mt-2  place-content-center ">
             <h4 className='text-center font-semibold  text-yellow-800 text-lg'>Categoria Bronze</h4>
             <div
               className="flex items-center justify-center"
             >
-              <a href="https://www.instagram.com/venosanbrasil/?hl=en" className='mb-8 mr-7 '>
+              <a href="https://www.instagram.com/venosanbrasil/?hl=en" className=' mr-7 '>
                   <Image src={Venosan} alt={'venosan-logo'} unoptimized width={270} height={170}/>
               </a>
-              <a href="https://www.instagram.com/intimmasaude/?hl=en" className='mb-8 mr-7 '>
+              <a href="https://www.instagram.com/intimmasaude/?hl=en" className=' mr-7 '>
                   <Image src={Intima} alt={'intima-logo'} unoptimized width={270} height={170}/>
               </a>
             </div>

@@ -7,6 +7,7 @@ import UNIFAELogo from '@/images/logos/unifae-logo.jpeg'
 import AbralinfeLogo from '@/images/logos/abralinfe-logo.jpeg'
 import SochkoLogo from '@/images/logos/sochko-logo.jpeg'
 import omLogo from '@/images/logos/om-logo.png'
+import abrafismLogo from '@/images/logos/abrafism-logo.jpeg'
 
 
 export function ApoioInstitucional() {
@@ -21,7 +22,7 @@ export function ApoioInstitucional() {
             Apoiadores
           </h2>
         </div>
-        <div className="py-2 mx-auto mb-8 place-content-center ">
+        <div className="py-6 mx-auto mb-8 place-content-center ">
             <div
               className="flex flex-col items-center justify-center md:flex-row "
             >
@@ -48,6 +49,9 @@ export function ApoioInstitucional() {
               </a>
               <a href="https://www.instagram.com/oncomovimento/?hl=en" className='-mt-3 ml-4'>
                   <Image src={omLogo} alt={'om-logo'} unoptimized width={260} height={140}/>
+              </a>
+              <a href="https://www.instagram.com/abrafism/?hl=en" className='-mt-3 ml-5'>
+                  <Image src={abrafismLogo} alt={'om-logo'} unoptimized width={130} height={140}/>
               </a>
             </div>
         </div>

@@ -20,7 +20,7 @@ export function PatrocinadoresGerais() {
               className="flex items-center justify-center"
             >
               <a href="https://www.instagram.com/zenfisio/?hl=en" className='mb-8 mt-4'>
-                  <Image src={ZenFisio} alt={'zenfisio-logo'} unoptimized width={180} height={10}/>
+                  <Image src={ZenFisio} alt={'zenfisio-logo'} unoptimized width={160} height={10}/>
               </a>
             </div>
         </div>
