@@ -54,11 +54,11 @@ export default function Home() {
         <Local language={language}/>
         <Patrocinadores language={language}/>
         <PatrocinadoresGerais language={language} />
+        <ApoioInstitucional language={language}/>
         <AgenciaOficial language={language}/>
         <Realizacao language={language}/>
         <Organizacao/>
         <Patrocinio />
-        <ApoioInstitucional language={language}/>
         <Coquetel language={language}/>
         <ProgramaCultural language={language}/>  
       </main>
