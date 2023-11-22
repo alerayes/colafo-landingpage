@@ -42,6 +42,7 @@ module.exports = {
         'brown-beige': '#B9A89A',
         'test-color': '#F8F0DF',
         'background': '#FFFAF4',
+        'instructions': '#B56034',        
       }
     },
   },

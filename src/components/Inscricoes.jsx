@@ -12,9 +12,9 @@ const dataPortuguese = [
     id: 1,
     categoria: 'Estudante', 
     primeiraData: 'R$ 550,00', 
-    segundaData: 'R$ 660,00', 
-    terceiraData: 'R$ 770,00',
-    noLocal: 'R$ 1000,00' 
+    segundaData: 'R$ 550,00', 
+    terceiraData: 'R$ 550,00',
+    noLocal: 'R$ 550,00' 
   },
   { 
     id: 2,
@@ -216,6 +216,19 @@ export function Inscricoes({language}) {
             </div>
           </div>
         </div>
+      </div>
+      <div className='mt-12'> 
+        <h3 className=' text-center text-3xl font-bold text-instructions'>Inscrições em Grupo</h3>
+        <p className='ml-8 mt-4 font-display text-base font-normal'>Instruções para inscrições em grupo:</p>
+        <p className='mx-8 font-display text-base font-normal'> Encaminhar lista com nome completo, e-mail e telefone das pessoas que farão parte do combo para o e-mail congressolatino24@gmail.com. 
+           Cada participante deverá entrar no site do evento (www.COLAFO.com.br) e efetuar sua inscrição no Congresso pela plataforma Sympla;
+           Para grupo de 05 congressistas ou mais, o desconto será de 10% (desconto de concessão com base na tabela de valores vigentes na data da coleta da lista de nomes);
+           Um participante deverá encaminhar o comprovante de pagamento em nome de todos os congressistas por e-mail congressolatino24@gmail.com.
+           A política de cancelamento e reembolso será a mesma aplicada aos demais participantes e informada no site do congresso;
+           O aceite da inscrição com desconto para grupo ocorrerá apenas com a confirmação dos dados dos participantes e incluindo o comprovante de pagamento.
+          Siga as instruções e qualquer dúvida entre em contato!
+        </p>
+        <p className='mx-8'>Estamos à disposição.</p>
       </div>
       <div className='flex justify-center mt-12'>
           <button
