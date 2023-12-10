@@ -138,6 +138,7 @@ export function Inscricoes({language}) {
             'Registros'
             }
           </h2>
+          <h3 className=' text-center text-xl font-bold text-instructions'>Lote 2 prorrogado até dia 15/12!</h3>
         </div>
         <div className="px-4 sm:px-6 lg:px-8">
         <div className="mt-8 flow-root">

@@ -31,6 +31,10 @@ export function Hero({ language }) {
             priority={true}
           />
         </div>
+        <div>
+        <h3 className='text-center mt-12 text-2xl font-bold text-dateandplace'>11 a 13 de Abril</h3>
+        <h3 className='text-center mt-6 text-2xl font-bold text-dateandplace'>IAMSPE • SP • Brasil</h3>
+        </div>
       </Container>
     </div>
   );
