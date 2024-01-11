@@ -11,9 +11,22 @@ export function Event({language}) {
       className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8"
     >
       <Container>
-        <div className="text-center lg:mx-0 py-5">
+        <div className="text-center lg:mx-0">
+        <button
+              type="button"
+              className="rounded-md bg-primary-green px-3.5 py-2.5 text-md font-semibold text-white text-lg shadow-sm hover:bg-light-green focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >
+              <a href="https://www.sympla.com.br/congresso-latino-americano-de-fisioterapia-em-oncologia__1955700">
+              { language === 'pt' ?
+                'Inscreva-se agora. Prorrogamos o Lote 2!' 
+              :
+                'Suscríbete Ahora'
+              }
+              </a>
+
+          </button> 
           <h2
-            className="font-display py-4 text-4xl font-display tracking-tighter text-primary-green sm:text-5xl"
+            className="font-display pb-8 pt-20 text-4xl font-display tracking-tighter text-primary-green sm:text-5xl"
           > 
           { language === 'pt' ?
             'Conheça o Evento'
