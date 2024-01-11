@@ -138,7 +138,7 @@ export function Inscricoes({language}) {
             'Registros'
             }
           </h2>
-          <h3 className=' text-center text-xl font-bold text-instructions'>Lote 2 prorrogado até dia 15/12!</h3>
+          <h3 className=' text-center text-2xl font-bold text-instructions'>Prorrogamos o Lote 2. Últimos dias!!!</h3>
         </div>
         <div className="px-4 sm:px-6 lg:px-8">
         <div className="mt-8 flow-root">
@@ -162,11 +162,11 @@ export function Inscricoes({language}) {
                         }
                     </th>
                     <th scope="col" className=" text-left text-sm font-semibold text-white">
-                        <div className='border-8 border-red-600 rounded-full px-3 py-3.5'>
+                        <div className='px-3 py-3.5'>
                           { language === 'pt' ?
-                            'Até 30/11/2023'
+                            'Até 15/02/2023'
                           :
-                            'Hasta 30/11/2023'
+                            'Hasta 15/02/2023'
                           }
                         </div> 
                     </th>
