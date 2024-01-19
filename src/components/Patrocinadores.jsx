@@ -60,7 +60,7 @@ export function Patrocinadores() {
               <a href="https://www.instagram.com/venosanbrasil/?hl=en" className=' mr-7 '>
                   <Image src={Venosan} alt={'venosan-logo'} unoptimized width={270} height={170}/>
               </a>
-              <a href="https://www.instagram.com/intimmasaude/?hl=en" className=' mr-7 '>
+              <a href="https://intimmasaude.com.br" className=' mr-7 '>
                   <Image src={Intima} alt={'intima-logo'} unoptimized width={270} height={170}/>
               </a>
             </div>
