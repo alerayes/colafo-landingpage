@@ -8,6 +8,9 @@ import Oncopuntura from '@/images/patrocinadores/oncopuntura.jpeg'
 import Feijoeiro from '@/images/patrocinadores/feijoeiro-logo.jpeg'
 import Venosan from '@/images/patrocinadores/venosan-logo.jpeg'
 import Intima from '@/images/patrocinadores/intima-logo.jpeg'
+import Ibramed from '@/images/patrocinadores/ibramed-logo.jpeg'
+import Miotec from '@/images/patrocinadores/miotec-logo.jpeg'
+import Oncosmetic from '@/images/patrocinadores/oncosmetic-logo.png'
 
 
 
@@ -29,7 +32,10 @@ export function Patrocinadores() {
               className="flex items-center justify-center"
             >
               <a href="https://www.instagram.com/clsp.distribuidora/" className='mb-8 mt-4'>
-                  <Image src={CLSP} alt={'clsp-logo'} unoptimized width={200} height={10}/>
+                  <Image src={CLSP} alt={'clsp-logo'} unoptimized width={200} height={30}/>
+              </a>
+              <a href="https://www.instagram.com/ibramedbrasil?igsh=bmQ3OW5ldWg4b3A1" className='mb-8 mt-4'>
+                  <Image src={Ibramed} alt={'ibramed-logo'} unoptimized width={220} height={30}/>
               </a>
             </div>
         </div>
@@ -51,6 +57,13 @@ export function Patrocinadores() {
                   <Image src={Oncopuntura} alt={'oncopuntura-logo'} unoptimized width={230} height={200}/>
               </a>
             </div>
+            <div
+              className="flex flex-col items-center justify-center md:flex-row "
+            >
+              <a href="https://www.instagram.com/miotec_insta?igsh=ZjN3eGg3MnhtcXNn" className='mt-10 mb-8 mr-7 '>
+                  <Image src={Miotec} alt={'miotec-logo'} unoptimized width={210} height={140}/>
+              </a>
+            </div>
         </div>
         <div className="mx-auto mb-4 mt-2  place-content-center ">
             <h4 className='text-center font-semibold  text-yellow-800 text-lg'>Categoria Bronze</h4>
@@ -62,6 +75,9 @@ export function Patrocinadores() {
               </a>
               <a href="https://intimmasaude.com.br" className=' mr-7 '>
                   <Image src={Intima} alt={'intima-logo'} unoptimized width={270} height={170}/>
+              </a>
+              <a href="https://www.instagram.com/oncosmetic?igsh=dGl3NWJwd2Z0b2dj" className='mr-4 -ml-4'>
+                  <Image src={Oncosmetic} alt={'oncosmetic-logo'} unoptimized width={290} height={170}/>
               </a>
             </div>
         </div>
