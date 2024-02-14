@@ -130,6 +130,17 @@ const portugueseSchedule = [
           },
         ]
       },
+      {
+        name: 'Empreendedorismo e Gestão em Saúde',
+        start: '14:00',
+        end: '18:00',
+        speakers: [
+          {
+            id: 1,
+            name: 'Dr. Raphael Ferris'
+          },
+        ],
+      },
     ]
   },
   {
