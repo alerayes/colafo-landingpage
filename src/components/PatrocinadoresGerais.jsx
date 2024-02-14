@@ -2,6 +2,7 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import ZenFisio from '@/images/patrocinadores/zenfisio-logo.jpeg'
+import NegocioFisioterapia from '@/images/logos/negociofisioterapia-logo.png'
 
 export function PatrocinadoresGerais() {
   return (
@@ -12,15 +13,18 @@ export function PatrocinadoresGerais() {
             id="speakers-title"
             className=" text-2xl font-semibold text-primary-green tracking-tighter"
           >
-            Patrocinadores
+            Parceiros
           </h2>
         </div>
         <div className="mx-auto mb-10 mt-2  place-content-center ">
             <div
-              className="flex items-center justify-center"
+              className="flex flex-col items-center justify-center md:flex-row"
             >
               <a href="https://www.instagram.com/zenfisio/?hl=en" className='mb-8 mt-4'>
-                  <Image src={ZenFisio} alt={'zenfisio-logo'} unoptimized width={160} height={10}/>
+                  <Image src={ZenFisio} alt={'zenfisio-logo'} unoptimized width={140} height={10}/>
+              </a>              
+              <a href="https://www.instagram.com/negociofisioterapia/?hl=en" className='mb-8 mt-4 md:ml-10'>
+                  <Image src={NegocioFisioterapia} alt={'negociofisioterapia-logo'} unoptimized width={250} height={10}/>
               </a>
             </div>
         </div>

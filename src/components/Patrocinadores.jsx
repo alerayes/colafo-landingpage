@@ -11,6 +11,9 @@ import Intima from '@/images/patrocinadores/intima-logo.jpeg'
 import Ibramed from '@/images/patrocinadores/ibramed-logo.jpeg'
 import Miotec from '@/images/patrocinadores/miotec-logo.jpeg'
 import Oncosmetic from '@/images/patrocinadores/oncosmetic-logo.png'
+import MMO from '@/images/patrocinadores/mmo-logo.jpeg'
+import LojaMeuPerineo from '@/images/patrocinadores/lojameuperineo-logo.jpeg'
+import Medi from '@/images/patrocinadores/medi.png'
 
 
 
@@ -27,9 +30,9 @@ export function Patrocinadores() {
           </h2>
         </div>
         <div className="mx-auto mb-10 mt-2  place-content-center ">
-            <h4 className='text-center font-semibold mb-8 text-yellow-600 text-lg'>Categoria Ouro</h4>
+            <h4 className='text-center font-semibold mb-8 text-yellow-600 text-lg '>Categoria Ouro</h4>
             <div
-              className="flex items-center justify-center"
+              className="flex flex-col items-center justify-center md:flex-row "
             >
               <a href="https://www.instagram.com/clsp.distribuidora/" className='mb-8 mt-4'>
                   <Image src={CLSP} alt={'clsp-logo'} unoptimized width={200} height={30}/>
@@ -63,21 +66,34 @@ export function Patrocinadores() {
               <a href="https://www.instagram.com/miotec_insta?igsh=ZjN3eGg3MnhtcXNn" className='mt-10 mb-8 mr-7 '>
                   <Image src={Miotec} alt={'miotec-logo'} unoptimized width={210} height={140}/>
               </a>
+              <a href="https://www.instagram.com/medibrasil/" className='mt-10 mb-8 mr-7 '>
+                  <Image src={Medi} alt={'medi-logo'} unoptimized width={180} height={140}/>
+              </a>
             </div>
         </div>
         <div className="mx-auto mb-4 mt-2  place-content-center ">
-            <h4 className='text-center font-semibold  text-yellow-800 text-lg'>Categoria Bronze</h4>
+            <h4 className='text-center font-semibold  text-yellow-800 text-xl mb-12 md:mb-0'>Categoria Bronze</h4>
             <div
-              className="flex items-center justify-center"
+              className="flex flex-col items-center justify-center mt-12 md:flex-row mt-0"
             >
               <a href="https://www.instagram.com/venosanbrasil/?hl=en" className=' mr-7 '>
                   <Image src={Venosan} alt={'venosan-logo'} unoptimized width={270} height={170}/>
               </a>
               <a href="https://intimmasaude.com.br" className=' mr-7 '>
-                  <Image src={Intima} alt={'intima-logo'} unoptimized width={270} height={170}/>
+                  <Image src={Intima} alt={'intima-logo'} unoptimized width={270} height={150}/>
               </a>
               <a href="https://www.instagram.com/oncosmetic?igsh=dGl3NWJwd2Z0b2dj" className='mr-4 -ml-4'>
-                  <Image src={Oncosmetic} alt={'oncosmetic-logo'} unoptimized width={290} height={170}/>
+                  <Image src={Oncosmetic} alt={'oncosmetic-logo'} unoptimized width={290} height={200}/>
+              </a>
+              <a href="https://www.instagram.com/blisssaudeeestetica?igsh=MTNpZmhjbjB4ZWV1OQ==" className='mr-4 -ml-4 mb-12 mt-10'>
+                  <Image src={MMO} alt={'mmo-logo'} unoptimized width={290} height={200}/>
+              </a>
+            </div>
+            <div
+              className="flex flex-col items-center justify-center md:flex-row "
+            >
+              <a href="https://www.instagram.com/lojameuperineo/" className='mt-10 mb-8 mr-7  md:mt-0'>
+                  <Image src={LojaMeuPerineo} alt={'lojameuperineo-logo'} unoptimized width={180} height={140}/>
               </a>
             </div>
         </div>
