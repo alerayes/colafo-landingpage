@@ -57,8 +57,16 @@ const dataPortuguese = [
     terceiraData: 'R$ 300,00',
     noLocal: 'R$ 350,00' 
   },
-  { 
+  {
     id: 7,
+    categoria: 'Empreendedorismo e Gestão em Saúde',
+    primeiraData: 'R$ 200,00',
+    segundaData: 'R$ 250,00',
+    terceiraData: 'R$ 300,00',
+    noLocal: 'R$ 350,00'
+  },
+  { 
+    id: 8,
     categoria: 'Coquetel/ Networking', 
     primeiraData: 'R$ 100,00', 
     segundaData: 'R$ 150,00', 
@@ -84,8 +92,17 @@ const dataSpanish = [
     terceiraData: 'R$ 880,00',
     noLocal: 'R$ 1000,00' 
   },
-  { 
+  {
     id: 3,
+    categoria: 'Residentes e Associados Das Instituições Parceira (AFOA, SOCHKO, ABRAFISM)',
+    primeiraData: 'R$ 660,00', 
+    segundaData: 'R$ 770,00', 
+    terceiraData: 'R$ 880,00',
+    noLocal: 'R$ 1000,00' 
+
+  },
+  { 
+    id: 4,
     categoria: 'Profesionales', 
     primeiraData: 'R$ 770,00', 
     segundaData: 'R$ 880,00', 
@@ -93,16 +110,8 @@ const dataSpanish = [
     noLocal: 'R$ 1000,00' 
   },
   { 
-    id: 4,
-    categoria: 'Curso internacional pre-congreso Linfedema', 
-    primeiraData: 'R$ 200,00', 
-    segundaData: 'R$ 250,00', 
-    terceiraData: 'R$ 300,00',
-    noLocal: 'R$ 350,00' 
-  },
-  { 
     id: 5,
-    categoria: 'Curso internacional pre congreso Rehabilitación Integrativa', 
+    categoria: 'Curso Pré Congresso Internacional Linfedema', 
     primeiraData: 'R$ 200,00', 
     segundaData: 'R$ 250,00', 
     terceiraData: 'R$ 300,00',
@@ -110,6 +119,22 @@ const dataSpanish = [
   },
   { 
     id: 6,
+    categoria: 'Fisioterapia Oncológica Hospitalar: da avaliação funcional aos cuidados intensivos', 
+    primeiraData: 'R$ 200,00', 
+    segundaData: 'R$ 250,00', 
+    terceiraData: 'R$ 300,00',
+    noLocal: 'R$ 350,00' 
+  },
+  {
+    id: 7,
+    categoria: 'Empreendedorismo e Gestão em Saúde',
+    primeiraData: 'R$ 200,00',
+    segundaData: 'R$ 250,00',
+    terceiraData: 'R$ 300,00',
+    noLocal: 'R$ 350,00'
+  },
+  { 
+    id: 8,
     categoria: 'Cóctel / Networking', 
     primeiraData: 'R$ 100,00', 
     segundaData: 'R$ 150,00', 
