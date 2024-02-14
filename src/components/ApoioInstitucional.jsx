@@ -27,13 +27,13 @@ export function ApoioInstitucional() {
             <div
               className="flex flex-col items-center justify-center md:flex-row "
             >
-              <a href="https://www.instagram.com/abraleoficial/" className=''>
+              <a href="https://www.instagram.com/abraleoficial/" className='mb-8 md:mb-0'>
                   <Image src={AbraleLogo} alt={'abrale-logo'} unoptimized width={300} height={140}/>
               </a>
-              <a href="https://www.instagram.com/afoa.argentina/" className=''>
+              <a href="https://www.instagram.com/afoa.argentina/" className='mb-8 md:mb-0'>
                   <Image src={AFOALogo} alt={'afoa-logo'} unoptimized width={140} height={50}/>
               </a>
-              <a href="https://www.instagram.com/unifae/" className=' ml-10 mr-10 mt-6'>
+              <a href="https://www.instagram.com/unifae/" className=' ml-10 mr-10 mt-6 mb-10 md:mb-0 '>
                   <Image src={UNIFAELogo} alt={'unifae-logo'} unoptimized width={220} height={150}/>
               </a>
               <a href="https://www.instagram.com/abralinfe/" className=''>
@@ -45,13 +45,13 @@ export function ApoioInstitucional() {
             <div
               className="flex flex-col items-center justify-center md:flex-row "
             >
-              <a href="https://www.instagram.com/sochkochile/?hl=en" className='-mt-3 mr-4'>
+              <a href="https://www.instagram.com/sochkochile/?hl=en" className='-mt-3 mr-4 mb-16 md:mb-0'>
                   <Image src={SochkoLogo} alt={'sochko-logo'} unoptimized width={200} height={140}/>
               </a>
-              <a href="https://www.instagram.com/oncomovimento/?hl=en" className='-mt-3 mr-4 ml-4'>
+              <a href="https://www.instagram.com/oncomovimento/?hl=en" className='-mt-3 mr-4 ml-4 mb-16 md:mb-0'>
                   <Image src={omLogo} alt={'om-logo'} unoptimized width={260} height={140}/>
               </a>
-              <a href="https://www.instagram.com/abrafism/?hl=en" className='-mt-3 ml-5'>
+              <a href="https://www.instagram.com/abrafism/?hl=en" className='-mt-3 ml-5 mb-10 md:mb-0'>
                   <Image src={abrafismLogo} alt={'abrafism-logo'} unoptimized width={130} height={140}/>
               </a>
               <a href="https://www.instagram.com/abrafidef/" className='-mt-3 ml-5'>
