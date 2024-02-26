@@ -9,6 +9,8 @@ import SochkoLogo from '@/images/logos/sochko-logo.jpeg'
 import omLogo from '@/images/logos/om-logo.png'
 import abrafismLogo from '@/images/logos/abrafism-logo.jpeg'
 import abrafidefLogo from '@/images/logos/abrafidef-logo.jpeg'
+import Oncopuntura from '@/images/patrocinadores/oncopuntura.jpeg'
+import Nefonco from '@/images/logos/nefonco-logo.jpeg'
 
 
 export function ApoioInstitucional() {
@@ -56,6 +58,16 @@ export function ApoioInstitucional() {
               </a>
               <a href="https://www.instagram.com/abrafidef/" className='-mt-3 ml-5'>
                   <Image src={abrafidefLogo} alt={'abradidef-logo'} unoptimized width={260} height={180}/>
+              </a>
+              <a href="https://www.instagram.com/oncopuntura/" className='mb-8 sm:mt-10 '>
+                  <Image src={Oncopuntura} alt={'oncopuntura-logo'} unoptimized width={230} height={200}/>
+              </a>
+            </div>
+            <div
+              className="flex flex-col items-center justify-center md:flex-row "
+            >
+              <a href="https://www.instagram.com/sochkochile/?hl=en" className='-mt-4 mr-4 md:mb-0 md:mt-12'>
+                  <Image src={Nefonco} alt={'sochko-logo'} unoptimized width={180} height={120}/>
               </a>
             </div>
         </div>

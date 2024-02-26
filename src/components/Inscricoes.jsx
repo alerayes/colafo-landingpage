@@ -163,7 +163,7 @@ export function Inscricoes({language}) {
             'Registros'
             }
           </h2>
-          <h3 className=' text-center text-2xl font-bold text-instructions'>Prorrogamos o Lote 2. Últimos dias!!!</h3>
+          <h3 className=' text-center text-2xl font-bold text-instructions'>As vendas do Lote 3 já começaram. Garanta agora seu ingresso!</h3>
         </div>
         <div className="px-4 sm:px-6 lg:px-8">
         <div className="mt-8 flow-root">
