@@ -271,8 +271,8 @@ const portugueseSchedule = [
         blocks: [
           {
             id: 1,
-            time: '12:35',
-            name: 'Discussão',
+            name: 'Pressoterapia é seguro no paciente oncológico? O que podemos esperar de resultados e qual terapia de compressão associar?',
+            speaker: 'Dra. Gabriela Tosta '
           },
         ]
       },
@@ -334,29 +334,26 @@ const portugueseSchedule = [
         start: '15:40',
       },
       {
-        name: 'Mesa redonda: Diversidade na oncologia',
+        name: 'Pilates no Câncer de Mama: Experiência de um serviço universitário',
         start: '16:10',
-        end: '16:40',
-        speakers: null,
-        blocks: [
+        end: '16:25',
+        speakers: [
           {
             id: 1,
-            time: '16:10',
-            name: 'Câncer em Pessoas Transgêneros: o que o fisioterapeuta precisa saber?',
-            speaker: 'Dra. Luá Alves',
-          },
+            name: 'Dra. Vanessa VilasBoas'
+          }
+        ],
+      },
+      {
+        name: 'Reabilitação pélvica na população LGBTQIA+',
+        start: '16:25',
+        end: '16:40',
+        speakers: [
           {
-            id: 2,
-            time: '16:25',
-            name: 'Reabilitação pélvica na população LGBTQIA+',
-            speaker: ' Dr. Mauro Barbosa',
-          },
-          {
-            id: 3,
-            time: '16:40',
-            name: 'Discussão',
-          },
-        ]
+            id: 1,
+            name: 'Dr. Mauro Barbosa'
+          }
+        ],
       },
       {
         name: 'Palestra Hands on: Terapia por ondas de choque na oncologia',
@@ -635,7 +632,8 @@ const portugueseSchedule = [
           {
             id: 1,
             time: '16:40',
-            name: 'Terapia integrativa em oncologia',
+            name: 'Palestra surpresa',
+            speaker: 'Tom Almeida'
           },
           {
             id: 2,
