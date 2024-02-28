@@ -18,7 +18,7 @@ export function Event({language}) {
             >
               <a href="https://www.sympla.com.br/congresso-latino-americano-de-fisioterapia-em-oncologia__1955700">
               { language === 'pt' ?
-                'Inscreva-se agora. Prorrogamos o Lote 2!' 
+                'Inscreva-se agora!' 
               :
                 'Suscríbete Ahora'
               }
