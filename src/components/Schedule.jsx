@@ -8,6 +8,7 @@ const portugueseSchedule = [
   {
     date: '11 de Abril',
     dateTime: '11-04-2024',
+    title:'Cursos pré-congresso - Inscrições a parte' ,
     summary:
       '',
     timeSlots: [
@@ -731,7 +732,7 @@ function DaySummary({ day }) {
   return (
     <>
       <h3 className="text-2xl text-center font-semibold tracking-tight text-primary-green">
-        <time dateTime={day.dateTime}>{day.date}</time>
+        <time dateTime={day.dateTime}>{day.date}</time> 
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-slate-950">
         {day.summary}
@@ -754,6 +755,11 @@ function TimeSlots({ day, className }) {
           key={timeSlot.start}
           aria-label={`${timeSlot.name} talking about ${timeSlot.description} at ${timeSlot.start} - ${timeSlot.end} PST`}
         >
+          {timeSlotIndex === 0 && (
+            <h3 className='text-xl font-bold tracking-tight text-slate-950 mb-10'>
+              {day.dateTime === '11-04-2024' ? day.title : null}
+            </h3>
+          )}
           <h4 className="text-lg font-bold tracking-tight text-slate-950">
             {timeSlot.name}
           </h4>
