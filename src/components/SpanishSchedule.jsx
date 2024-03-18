@@ -226,7 +226,7 @@ const portugueseSchedule = [
           {
             id: 4,
             time: '10:35',
-            name: 'Discussão',
+            name: 'Palestra Patrocinada Selecta',
           },
         ]
       },
@@ -416,13 +416,13 @@ const portugueseSchedule = [
       '',
     timeSlots: [
       {
-        name: 'Palestra Hands On: Reabilitação integrativa em oncologia.',
+        name: 'Palestra Hands on: Linfotaping',
         start: '08:00',
         end: '08:40',
         speakers: [
           {
             id: 1,
-            name: 'Dra. Paulina Araya',
+            name: 'Dra. Mirella Dias',
           }
         ],
         blocks: [
@@ -572,13 +572,13 @@ const portugueseSchedule = [
         start: '13:05',
       },
       {
-        name: 'Palestra Hands on: Linfotaping ',
+        name: 'Palestra Hands On: Reabilitação integrativa em oncologia. ',
         start: '14:30',
         end: '15:10',
         speakers: [
           {
             id: 1,
-            name: 'Dra. Mirella Dias',
+            name: 'Dra. Paulina Araya',
           }
         ],
         blocks: [
