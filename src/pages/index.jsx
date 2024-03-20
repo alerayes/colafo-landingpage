@@ -21,6 +21,7 @@ import { Palestrantes } from '@/components/Palestrantes'
 import { Patrocinadores } from '@/components/Patrocinadores'
 import { PatrocinadoresGerais } from '@/components/PatrocinadoresGerais'
 import WhatsAppFloatingButton from '@/components/WhatsAppFloatingButton'
+import SocialMediaButtons from '@/components/SocialMediaButtons'
 
 
 export default function Home() {
@@ -62,7 +63,7 @@ export default function Home() {
         <Patrocinio />
         <Coquetel language={language}/>
         <ProgramaCultural language={language}/>
-        <WhatsAppFloatingButton />  
+        <SocialMediaButtons />  
       </main>
     <Footer />
     </>

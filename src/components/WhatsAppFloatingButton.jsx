@@ -10,9 +10,9 @@ const WhatsAppFloatingButton = () => {
     };
 
     return (
-<div class="fixed bottom-4 right-4 bg-green-500 rounded-full w-14 h-14 flex items-center justify-center text-white cursor-pointer shadow-lg z-10" onClick={sendWhatsAppMessage}>
-    <i class="fab fa-whatsapp text-3xl"></i>
-</div>
+        <div class="fixed bottom-4 right-4 bg-green-500 rounded-full w-14 h-14 flex items-center justify-center text-white cursor-pointer shadow-lg z-10" onClick={sendWhatsAppMessage}>
+            <i class="fab fa-whatsapp text-3xl"></i>
+        </div>
     );
 };
 
