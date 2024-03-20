@@ -2,7 +2,7 @@
 
 const WhatsAppFloatingButton = () => {
     const sendWhatsAppMessage = () => {
-        const phoneNumber = '+5511993547928'; 
+        const phoneNumber = '5511964378731'; 
         const message = ''; 
 
         const apiLink = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
