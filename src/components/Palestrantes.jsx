@@ -32,7 +32,8 @@ import AndreaMelendi from '@/images/palestrantes/andrea-melendi.jpeg'
 import AnaLauraGonzales from '@/images/palestrantes/ana-laura-gonzales.jpeg'
 import VanessaVillasBoas from '@/images/palestrantes/vanessa-villasboas.jpeg'
 import TomAlmeidaBrasil from '@/images/palestrantes/tom-almeida-brasil.jpeg'
-
+import PauloCesarFernandes from '@/images/palestrantes/paulo-cesar-fernandes.jpeg'
+import DiegoBrito from '@/images/palestrantes/diego-brito.jpeg'
 
 const palestrantesNacionais = [
     {
@@ -172,7 +173,19 @@ const palestrantesNacionais = [
         name: 'Tom Almeida 🇧🇷',
         role: '',
         image: TomAlmeidaBrasil
-    },                         
+    },
+    {
+      id: 24,
+      name: 'Dr. Paulo Cesar Fernandes 🇧🇷',
+      role: '',
+      image: PauloCesarFernandes
+    },
+    {
+      id: 25,
+      name: 'Dr. Diego Brito 🇧🇷',
+      role: '',
+      image: DiegoBrito
+    },                           
 ]
 
 const palestrantesInternacionais= [
