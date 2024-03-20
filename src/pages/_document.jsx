@@ -28,6 +28,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=DM+Sans:wght@400;500;700&display=swap"
           />
+          <script src="https://kit.fontawesome.com/5cba065845.js" crossorigin="anonymous"></script>
         </Head>
         <body>
           <noscript>
