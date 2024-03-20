@@ -9,6 +9,7 @@ export default class MyDocument extends Document {
         <Head>
           {/* Google Tag Manager script */}
           <Script
+            id="gtm-script" // Add an id attribute
             strategy="lazyOnload" // Load script asynchronously
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
