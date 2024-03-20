@@ -20,7 +20,7 @@ import Selecta from '@/images/logos/selecta-logo.png'
 import Sigvaris from '@/images/logos/sigvaris-logo.jpeg'
 import DoTerra from '@/images/logos/doterra-logo.jpg'
 import MeuClitoris from '@/images/logos/meuclitoris-logo.png'
-
+import Genitallia from '@/images/logos/genitallia-logo.png'
 
 
 export function Patrocinadores() {
@@ -81,18 +81,21 @@ export function Patrocinadores() {
                 <a href="https://intimmasaude.com.br" className='mr-7'>
                     <Image src={Intima} alt={'intima-logo'} unoptimized width={270} height={150}/>
                 </a>
-                <a href="https://www.instagram.com/r.slimoficial/?hl=en" className='mr-7'>
+                <a href="https://www.instagram.com/r.slimoficial/?hl=en" className='mr-7 -mt-20'>
                     <Image src={RSlim} alt={'rslim-logo'} unoptimized width={270} height={150}/>
                 </a>
             </div>
             <div
               className="flex flex-col items-center justify-center md:flex-row "
             >
-                <a href="https://www.meiaselecta.com.br/" className='mt-4 mb-8 mr-7 '>
+                <a href="https://www.instagram.com/meia_selecta/?hl=en" className='mt-4 mb-8 mr-7 '>
                     <Image src={Selecta} alt={'selecta-logo'} unoptimized width={220} height={140}/>
                 </a>
                 <a href="https://www.instagram.com/sigvarisgroup.brasil/?hl=en" className='mt-4 mb-8 mr-7 '>
                     <Image src={Sigvaris} alt={'sigvaris-logo'} unoptimized width={160} height={140}/>
+                </a>
+                <a href="https://www.instagram.com/genitaleintima/?hl=en" className='mt-4 mb-8 mr-7 ml-4 '>
+                    <Image src={Genitallia} alt={'genitallia-logo'} unoptimized width={220} height={140}/>
                 </a>
             </div>
         </div>
