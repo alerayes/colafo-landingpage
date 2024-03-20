@@ -1,5 +1,6 @@
 // pages/_document.js
 import Document, { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script'; // Import next/script
 
 export default class MyDocument extends Document {
   render() {
@@ -7,7 +8,9 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* Google Tag Manager script */}
-          <script
+          <Script
+            id="gtm-script" // Add an id attribute
+            strategy="lazyOnload" // Load script asynchronously
             dangerouslySetInnerHTML={{
               __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -28,7 +31,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=DM+Sans:wght@400;500;700&display=swap"
           />
-          <script src="https://kit.fontawesome.com/5cba065845.js" crossorigin="anonymous"></script>
+          <script src="https://kit.fontawesome.com/5cba065845.js" crossOrigin="anonymous"></script>
         </Head>
         <body>
           <noscript>
